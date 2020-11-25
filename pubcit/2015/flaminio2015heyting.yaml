@@ -1,6 +1,8 @@
 !Citation
-article_number: 7337929
+_key: flaminio2015heyting
 authors: ['Flaminio, T.', 'Gerla, B.', 'Marigo, F.']
+title: Heyting algebras with indiscernibility relations
+article_number: 7337929
 booktitle: 2015 Ieee International Conference on Fuzzy Systems (Fuzz-ieee 2015)
 cites: [dinola2009thecategory, jenca2007arepresentation]
 document_type: Conference Paper
@@ -14,10 +16,9 @@ organization: IEEE; IEEE Computat Intelligence Soc; Middle E Tech Univ; Kadir Ha
 series: IEEE International Fuzzy Systems Conference Proceedings
 source: Scopus
 tags: [scopus, zpub, voc2016, zautor, wos]
-title: Heyting algebras with indiscernibility relations
 type: conference
 unique_id: ISI:000370288300130
 url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-84975784760&doi=10.1109%2fFUZZ-IEEE.2015.7337929&partnerID=40&md5=006b6f0b33328635b4bf792249639aee
 volume: 2015-November
 year: 2015
-_key: flaminio2015heyting
+quartile: null

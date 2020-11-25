@@ -1,5 +1,7 @@
 !Citation
+_key: pulmannova1999congruences
 authors: ['Pulmannová, S']
+title: Congruences in partial abelian semigroups (vol 37, pg 119, 1997)
 cites: [jenca2000subcentral]
 doi: 10.1007/s000120050123
 endpage: 60
@@ -8,9 +10,8 @@ journal: Algebra Universalis
 number: 1-2
 startpage: 59
 tags: [zpub, as-preprint, wos, dautor]
-title: Congruences in partial abelian semigroups (vol 37, pg 119, 1997)
 type: article
 unique-id: ISI:000084551300005
 volume: 42
 year: 1999
-_key: pulmannova1999congruences
+quartile: Q3

@@ -1,7 +1,9 @@
 !Citation
+_key: dvurecenskij2002algebras
+authors: ['Dvurečenskij, A', 'Vetterlein, T']
+title: Algebras in the positive cone of po-groups
 address: VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
 affiliation: Slovak Acad Sci, Inst Math, SK-81473 Bratislava, Slovakia.
-authors: ['Dvurečenskij, A', 'Vetterlein, T']
 cites: [jenca2002quotients]
 doc-delivery-number: 578VP
 doi: 10.1023/A:1016551707476
@@ -20,9 +22,8 @@ startpage: 127
 subject-category: Mathematics
 tags: [zpub, as-preprint, wos, dautor]
 times-cited: 12
-title: Algebras in the positive cone of po-groups
 type: article
 unique-id: ISI:000177142000003
 volume: 19
 year: 2002
-_key: dvurecenskij2002algebras
+quartile: null

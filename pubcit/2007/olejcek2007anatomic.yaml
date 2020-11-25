@@ -1,5 +1,7 @@
 !Citation
+_key: olejcek2007anatomic
 authors: ['Olejček, Vladimir']
+title: An atomic MV-effect algebra with non-atomic center
 cites: [jenca1999onsharp]
 endpage: 346
 issn: 0023-5954
@@ -7,9 +9,8 @@ journal: Kybernetika
 number: 3
 startpage: 343
 tags: [zpub, wos, dautor]
-title: An atomic MV-effect algebra with non-atomic center
 type: article
 unique-id: ISI:000250836400006
 volume: 43
 year: 2007
-_key: olejcek2007anatomic
+quartile: Q1

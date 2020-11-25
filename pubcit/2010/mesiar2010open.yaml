@@ -1,5 +1,8 @@
 !Citation
+_key: mesiar2010open
 authors: ['Mesiar, Radko', 'Sarkoci, Peter']
+title: Open Problems Posed at the Tenth International Conference on Fuzzy Set Theory
+  and Applications (Fsta 2010, Liptovsky Jan, Slovakia)
 cites: [jenca1999onsharp, jenca2001blocks, jenca2003finite, jenca2003orthocomplete,
   jenca2010sharp]
 endpage: 599
@@ -8,10 +11,8 @@ journal: Kybernetika
 number: 4
 startpage: 585
 tags: [scopus, wrong, zpub, wos, dautor]
-title: Open Problems Posed at the Tenth International Conference on Fuzzy Set Theory
-  and Applications (Fsta 2010, Liptovsky Jan, Slovakia)
 type: article
 unique-id: ISI:000284562000001
 volume: 46
 year: 2010
-_key: mesiar2010open
+quartile: Q2

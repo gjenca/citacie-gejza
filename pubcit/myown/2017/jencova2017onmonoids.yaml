@@ -1,6 +1,8 @@
 !MyOwn
-arxiv: 1703.03728
+_key: jencova2017onmonoids
 authors: ['Jenčová, A.', 'Jenča, G.']
+title: On Monoids in the Category of Sets and Relations
+arxiv: 1703.03728
 document_type: Article
 doi: 10.1007/s10773-017-3304-z
 endpage: 3769
@@ -11,8 +13,7 @@ number: 12
 source: Scopus
 startpage: 3757
 tags: [cc, scopus, zpub, voc2017, wos]
-title: On Monoids in the Category of Sets and Relations
 type: article
 volume: 56
 year: 2017
-_key: jencova2017onmonoids
+quartile: Q3

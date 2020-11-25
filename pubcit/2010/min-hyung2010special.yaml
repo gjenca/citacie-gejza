@@ -1,5 +1,7 @@
 !Citation
+_key: min-hyung2010special
 authors: ['Min-hyung, Cho', 'Zhi-jian, Yu', 'Jun-de, Wu']
+title: Special ideals in partial abelian monoids
 cites: [jenca2000notes, jenca2002quotients]
 doi: 10.1007/s11766-010-2016-4
 endpage: 116
@@ -9,9 +11,8 @@ month: MAR
 number: 1
 startpage: 112
 tags: [scopus, zpub, zautor, wos]
-title: Special ideals in partial abelian monoids
 type: article
 unique-id: ISI:000275526500015
 volume: 25
 year: 2010
-_key: min-hyung2010special
+quartile: null

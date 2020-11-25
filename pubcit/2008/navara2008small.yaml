@@ -1,5 +1,7 @@
 !Citation
+_key: navara2008small
 authors: ['Navara, Mirko']
+title: Small quantum structures with small state spaces
 cites: [jenca2007theblock]
 doi: 10.1007/s10773-007-9415-1
 endpage: 43
@@ -12,9 +14,8 @@ number: 1
 organization: Int Quantum Structures Assoc; Math Inst Slovak Acad Sci; Univ Malta
 startpage: 36
 tags: [scopus, zpub, zautor, as-preprint, wos]
-title: Small quantum structures with small state spaces
 type: article
 unique-id: ISI:000252192000005
 volume: 47
 year: 2008
-_key: navara2008small
+quartile: Q3

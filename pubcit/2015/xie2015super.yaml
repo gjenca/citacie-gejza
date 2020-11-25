@@ -1,6 +1,8 @@
 !Citation
-article_number: 103509
+_key: xie2015super
 authors: ['Xie, Yongjian', 'Yang, Aili', 'Ren, Fang']
+title: Super quantum measures on effect algebras with the Riesz decomposition properties
+article_number: 103509
 cites: [jenca2003orthocomplete]
 document_type: Article
 doi: 10.1063/1.4933324
@@ -12,10 +14,9 @@ note: cited By 0
 number: 10
 source: Scopus
 tags: [scopus, zpub, zautor, wos, voc2015]
-title: Super quantum measures on effect algebras with the Riesz decomposition properties
 type: article
 unique_id: ISI:000364237000036
 url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84945906659&partnerID=40&md5=d0f5d1232b8154a66ae7586f413b7ddd
 volume: 56
 year: 2015
-_key: xie2015super
+quartile: Q2

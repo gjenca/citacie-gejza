@@ -1,5 +1,7 @@
 !Citation
+_key: pavlik2017unified
 authors: ['Pavlík, Jan']
+title: Unified Approach to Graphs and Metric Spaces
 cites: [jenca2002central]
 doi: 10.1515/ms-2017-0044
 eissn: 1337-2211
@@ -11,9 +13,8 @@ number: 5
 startpage: 1213
 tags: [zpub, zautor, wos, voc2017]
 times_cited: 0
-title: Unified Approach to Graphs and Metric Spaces
 type: article
 unique_id: ISI:000414656000013
 volume: 67
 year: 2017
-_key: pavlik2017unified
+quartile: Q3

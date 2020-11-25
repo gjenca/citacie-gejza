@@ -1,5 +1,7 @@
 !Citation
+_key: foulis2003compressible
 authors: ['Foulis, David J.']
+title: Compressible groups
 cites: [jenca2001blocks]
 endpage: 455
 journal: Mathematica Slovaca
@@ -8,8 +10,7 @@ number: 5
 publisher: Mathematical Institute of the Slovak Academy of Sciences
 startpage: 433
 tags: [zautor, dpub]
-title: Compressible groups
 type: article
 volume: 53
 year: 2003
-_key: foulis2003compressible
+quartile: null

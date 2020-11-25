@@ -14,7 +14,6 @@
 </ul>
 
 # for rec in records_by_type("MyOwn"):
-  # if rec.citedby:
   <h3>Paper:</h3>
   <p>
   {{ rec.authors_format("{f. }{vv}{ll{ }}{, jj}")|join(", ") }}:
@@ -35,7 +34,6 @@
            {{rec.publisher}},
        # endif    
        {{rec.year}},
-    
     # endif
     # if rec.startpage and rec.endpage
            {{rec.startpage}}-{{rec.endpage}},
@@ -50,7 +48,7 @@
     # for tag in rec.tags|sort:
     [{{tag}}]
     # endfor
-
+    Quartile: {{rec.quartile}}
   </p>
   <h3>
   Cited in ({{ rec.citedby | length}}):
@@ -106,7 +104,6 @@
   # endfor
   </ol>
   <hr>
-  #endif
 # endfor
 # endblock
 

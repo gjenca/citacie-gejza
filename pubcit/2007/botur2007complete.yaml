@@ -1,5 +1,7 @@
 !Citation
+_key: botur2007complete
 authors: ['Botur, Michal', 'Halaš, Radomír']
+title: Complete commutative basic algebras
 cites: [jenca1999onsharp]
 doi: 10.1007/s11083-007-9061-5
 endpage: 105
@@ -9,9 +11,8 @@ month: MAY
 number: 2
 startpage: 89
 tags: [zpub, zautor, wos]
-title: Complete commutative basic algebras
 type: article
 unique-id: ISI:000250921300002
 volume: 24
 year: 2007
-_key: botur2007complete
+quartile: null

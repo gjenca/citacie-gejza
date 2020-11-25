@@ -1,5 +1,7 @@
 !Citation
+_key: kuhr2010boolean
 authors: ['Kühr, Jan']
+title: Boolean and Central Elements and Cantor-Bernstein Theorem in Bounded Pseudo-BCK-Algebras
 cites: [jenca2002acantorbernstein]
 endpage: 404
 issn: 1542-3980
@@ -7,9 +9,8 @@ journal: Journal of Multiple-valued Logic and Soft Computing
 number: 3-5, SI
 startpage: 387
 tags: [scopus, zpub, zautor, wos]
-title: Boolean and Central Elements and Cantor-Bernstein Theorem in Bounded Pseudo-BCK-Algebras
 type: article
 unique-id: ISI:000277167200009
 volume: 16
 year: 2010
-_key: kuhr2010boolean
+quartile: Q4

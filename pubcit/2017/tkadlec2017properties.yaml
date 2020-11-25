@@ -1,5 +1,7 @@
 !Citation
+_key: tkadlec2017properties
 authors: ['Tkadlec, J.']
+title: Properties of Effect Algebras Based on Sets of Upper Bounds
 cites: [jenca2003orthocomplete, jenca2002quotients]
 document_type: Article
 doi: 10.1007/s10773-017-3522-4
@@ -16,9 +18,8 @@ source: Scopus
 startpage: 4133
 tags: [scopus, zpub, zautor, wos, voc2017]
 times_cited: 0
-title: Properties of Effect Algebras Based on Sets of Upper Bounds
 type: article
 unique_id: ISI:000414787000039
 volume: 56
 year: 2017
-_key: tkadlec2017properties
+quartile: Q3

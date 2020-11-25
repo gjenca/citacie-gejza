@@ -1,5 +1,7 @@
 !Citation
+_key: dinola2007cantorbernstein
 authors: ['Di Nola, Antonio', 'Navara, Mirko']
+title: Cantor-Bernstein property for MV-algebras
 booktitle: 'Algebraic and Proof-theoretic Aspects of Non-classical Logics: Papers
   in Honor of Daniele Mundici on the Occasion of His 60th Birthday'
 cites: [jenca2002acantorbernstein]
@@ -13,9 +15,8 @@ organization: Univ Milan; Kurt Godel Soc; Inst Nazl Alta Matemat, GNSAGA Dept
 series: Lecture Notes in Artificial Intelligence
 startpage: 107
 tags: [zpub, zautor, wos]
-title: Cantor-Bernstein property for MV-algebras
 type: inproceedings
 unique-id: ISI:000252215100007
 volume: 4460
 year: 2007
-_key: dinola2007cantorbernstein
+quartile: null

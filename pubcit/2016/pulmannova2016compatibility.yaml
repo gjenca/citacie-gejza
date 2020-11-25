@@ -1,5 +1,7 @@
 !Citation
+_key: pulmannova2016compatibility
 authors: ['Pulmannová, S.', 'Vinceková, E.']
+title: Compatibility of observables on effect algebras
 cites: [jenca2001blocks, jenca2004boolean, jenca1999onsharp]
 document_type: Article
 doi: 10.1007/s00500-015-1984-y
@@ -13,10 +15,9 @@ number: 10
 source: Scopus
 startpage: 3957
 tags: [scopus, zpub, voc2016, wos, dautor]
-title: Compatibility of observables on effect algebras
 type: article
 unique_id: ISI:000384228700013
 url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-84987625169&doi=10.1007%2fs00500-015-1984-y&partnerID=40&md5=9348a13466623939f43ca09fb912840d
 volume: 20
 year: 2016
-_key: pulmannova2016compatibility
+quartile: Q1

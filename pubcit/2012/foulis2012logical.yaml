@@ -1,5 +1,7 @@
 !Citation
+_key: foulis2012logical
 authors: ['Foulis, D.J.', 'Pulmannová, S.']
+title: Logical Connectives on Lattice Effect Algebras
 cites: [jenca2007theblock, jenca1999onsharp]
 document_type: Article
 doi: 10.1007/s11225-012-9454-3
@@ -12,10 +14,9 @@ number: 6
 source: Scopus
 startpage: 1291
 tags: [zautor, cc, zpub, wos, dautor, scopus, voc2012]
-title: Logical Connectives on Lattice Effect Algebras
 type: article
 unique_id: ISI:000312346600013
 url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84870773045&partnerID=40&md5=878cd26e5f28be629753c8132cc8e48a
 volume: 100
 year: 2012
-_key: foulis2012logical
+quartile: Q1

@@ -1,5 +1,7 @@
 !Citation
+_key: foulis2013hull
 authors: ['Foulis, D.J.', 'Pulmannová, S.']
+title: Hull determination and type decomposition for a generalized effect algebra
 cites: [jenca2000subcentral, jenca2002acantorbernstein]
 document_type: Article
 doi: 10.1007/s00012-012-0214-z
@@ -12,10 +14,9 @@ number: 1
 source: Scopus
 startpage: 45
 tags: [zautor, zpub, wos, dautor, scopus, voc2013]
-title: Hull determination and type decomposition for a generalized effect algebra
 type: article
 unique_id: ISI:000318351200004
 url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84872654084&partnerID=40&md5=e0e8dfdc740b9e82aff20defb490df5c
 volume: 69
 year: 2013
-_key: foulis2013hull
+quartile: Q3

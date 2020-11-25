@@ -1,5 +1,8 @@
 !Citation
+_key: niederle2012macneille
 authors: ['Niederle, Josef', 'Paseka, Jan']
+title: 'MacNeille completion of centers and centers of MacNeille completions of lattice
+  effect algebras: Generic scheme behind'
 cites: [jenca1999onsharp]
 doi: 10.2478/s12175-012-0073-2
 endpage: 1208
@@ -9,10 +12,8 @@ month: DEC
 number: 6
 startpage: 1193
 tags: [voc2013, zautor, wos, dpub]
-title: 'MacNeille completion of centers and centers of MacNeille completions of lattice
-  effect algebras: Generic scheme behind'
 type: article
 unique_id: ISI:000312663200013
 volume: 62
 year: 2012
-_key: niederle2012macneille
+quartile: Q3

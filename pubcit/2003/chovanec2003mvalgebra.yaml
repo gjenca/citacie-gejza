@@ -1,5 +1,7 @@
 !Citation
+_key: chovanec2003mvalgebra
 authors: ['Chovanec, F', 'Jurečková, M']
+title: MV-algebra pasting
 cites: [jenca2001blocks]
 doi: 10.1023/A:1027374700894
 endpage: 1926
@@ -9,10 +11,9 @@ month: SEP
 number: 9
 startpage: 1913
 tags: [scopus, zpub, wos, dautor]
-title: MV-algebra pasting
 type: article
 unique-id: ISI:000186379800003
 unique_id: ISI:000186379800003
 volume: 42
 year: 2003
-_key: chovanec2003mvalgebra
+quartile: Q3

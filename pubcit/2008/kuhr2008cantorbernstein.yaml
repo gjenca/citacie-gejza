@@ -1,5 +1,7 @@
 !Citation
+_key: kuhr2008cantorbernstein
 authors: ['Kühr, Jan']
+title: Cantor-Bernstein theorem for Pseudo-BCK-Algebras
 cites: [jenca2002acantorbernstein]
 doi: 10.1007/s10773-007-9465-4
 endpage: 222
@@ -12,9 +14,8 @@ number: 1
 organization: Int Quantum Structures Assoc; Math Inst Slovak Acad Sci; Univ Malta
 startpage: 212
 tags: [scopus, zpub, zautor, wos]
-title: Cantor-Bernstein theorem for Pseudo-BCK-Algebras
 type: article
 unique-id: ISI:000252192000020
 volume: 47
 year: 2008
-_key: kuhr2008cantorbernstein
+quartile: Q3

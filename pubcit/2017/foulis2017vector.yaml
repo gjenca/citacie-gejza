@@ -1,5 +1,7 @@
 !Citation
+_key: foulis2017vector
 authors: ['Foulis, David J.', 'Jenčová, Anna', 'Pulmannová, Sylvia']
+title: Vector Lattices in Synaptic Algebras
 cites: [jenca2007arepresentation]
 doi: 10.1515/ms-2017-0066
 eissn: 1337-2211
@@ -11,9 +13,8 @@ number: 6
 startpage: 1509
 tags: [voc2017, dautor, dpub, wos, zautor]
 times_cited: 2
-title: Vector Lattices in Synaptic Algebras
 type: article
 unique_id: ISI:000418566700018
 volume: 67
 year: 2017
-_key: foulis2017vector
+quartile: Q3

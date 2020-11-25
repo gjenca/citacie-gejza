@@ -1,5 +1,7 @@
 !Citation
+_key: pulmannova2005onfuzzy
 authors: ['Pulmannová, S']
+title: On fuzzy hidden variables
 cites: [jenca1999onsharp]
 doi: 10.1016/j.fss.2005.05.016
 endpage: 137
@@ -13,9 +15,8 @@ organization: Mil Acad Liptovsky Mikulas; Slovak Univ Technol; Slovak Acad Sci, 
   Inst; EUSFLAT Assoc
 startpage: 119
 tags: [zpub, wos, dautor]
-title: On fuzzy hidden variables
 type: article
 unique-id: ISI:000231626200010
 volume: 155
 year: 2005
-_key: pulmannova2005onfuzzy
+quartile: Q1

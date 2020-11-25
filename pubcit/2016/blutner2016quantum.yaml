@@ -1,5 +1,7 @@
 !Citation
+_key: blutner2016quantum
 authors: ['Blutner, R.', 'beim Graben, P.']
+title: Quantum cognition and bounded rationality
 cites: [jenca2001blocks]
 document_type: Article
 doi: 10.1007/s11229-015-0928-5
@@ -13,10 +15,9 @@ number: 10
 source: Scopus
 startpage: 3239
 tags: [scopus, zpub, voc2016, zautor, wos]
-title: Quantum cognition and bounded rationality
 type: article
 unique_id: ISI:000387420000009
 url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-84944909130&doi=10.1007%2fs11229-015-0928-5&partnerID=40&md5=2e3c7027685e85c6ef88f19bdea19336
 volume: 193
 year: 2016
-_key: blutner2016quantum
+quartile: Q1

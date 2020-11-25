@@ -1,5 +1,7 @@
 !Citation
+_key: avallone2003congruences
 authors: ['Avallone, A', 'Vitolo, P']
+title: Congruences and ideals of effect algebras
 cites: [jenca2001ideals]
 doi: 10.1023/A:1024458125510
 endpage: 77
@@ -8,10 +10,9 @@ journal: Order-a Journal on the Theory of Ordered Sets and Its Applications
 number: 1
 startpage: 67
 tags: [zpub, zautor, wos]
-title: Congruences and ideals of effect algebras
 type: article
 unique-id: ISI:000183729700006
 unique_id: ISI:000183729700006
 volume: 20
 year: 2003
-_key: avallone2003congruences
+quartile: null

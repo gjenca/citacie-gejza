@@ -1,5 +1,7 @@
 !Citation
+_key: chovanec2007dposets
 authors: ['Chovanec, F.', 'Kôpka, F.']
+title: D-posets
 cites: [jenca2001blocks]
 document_type: Book Chapter
 endpage: 428
@@ -8,8 +10,7 @@ note: cited By (since 1996)13
 source: Scopus
 startpage: 367
 tags: [scopus, dautor, zpub]
-title: D-posets
 type: book
 url: http://www.scopus.com/inward/record.url?eid=2-s2.0-77952243039&partnerID=40&md5=c1396807bbe8a65119f3fca60161a1d4
 year: 2007
-_key: chovanec2007dposets
+quartile: null

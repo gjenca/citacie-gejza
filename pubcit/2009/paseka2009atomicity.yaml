@@ -1,5 +1,7 @@
 !Citation
+_key: paseka2009atomicity
 authors: ['Paseka, Jan', 'Riečanová, Zdenka']
+title: Atomicity of Lattice Effect Algebras and Their Sub-lattice Effect Algebras
 cites: [jenca2003orthocomplete]
 endpage: 1051
 issn: 0023-5954
@@ -7,9 +9,8 @@ journal: Kybernetika
 number: 6
 startpage: 1040
 tags: [scopus, zpub, zautor, wos, dautor]
-title: Atomicity of Lattice Effect Algebras and Their Sub-lattice Effect Algebras
 type: article
 unique-id: ISI:000275281200012
 volume: 45
 year: 2009
-_key: paseka2009atomicity
+quartile: Q2

@@ -1,14 +1,15 @@
 !MyOwn
-arxiv: '0910.2823'
+_key: jenca2011coexistence
 authors: ['Jenča, G.']
+title: Coexistence in interval effect algebras
+arxiv: '0910.2823'
 endpage: 344
 grants: APVV-0071-06,VEGA G-1/0080/10
 issue: 1
 journal: Proceedings of the American Mathematical Society
 startpage: 331
 tags: [cc, zpub, wos]
-title: Coexistence in interval effect algebras
 type: article
 volume: 139
 year: 2011
-_key: jenca2011coexistence
+quartile: Q1

@@ -1,5 +1,7 @@
 !Citation
+_key: pulmannova2015mvpairs
 authors: ['Pulmannová, S.', 'Vinceková, E.']
+title: MV-pairs and state operators
 cites: [jenca2004boolean, jenca2007arepresentation]
 document_type: Article
 doi: 10.1016/j.fss.2014.04.002
@@ -11,9 +13,8 @@ note: cited By 0
 source: Scopus
 startpage: 62
 tags: [scopus, voc2015, zpub, wos, dautor]
-title: MV-pairs and state operators
 type: article
 url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84919463236&partnerID=40&md5=d6f93e92c83282b0cc6520479581d0be
 volume: 260
 year: 2015
-_key: pulmannova2015mvpairs
+quartile: Q1

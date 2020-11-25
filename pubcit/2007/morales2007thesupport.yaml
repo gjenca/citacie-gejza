@@ -1,5 +1,7 @@
 !Citation
+_key: morales2007thesupport
 authors: ['Morales, Pedro', 'Garcia Mazario, Francisco']
+title: The support of a uniform semigroup valued measure
 cites: [jenca2002quotients, jenca2003orthocomplete]
 doi: 10.1007/s00012-006-1983-z
 endpage: 105
@@ -9,9 +11,8 @@ month: FEB
 number: 1
 startpage: 93
 tags: [scopus, zpub, zautor, wos]
-title: The support of a uniform semigroup valued measure
 type: article
 unique-id: ISI:000244065200007
 volume: 56
 year: 2007
-_key: morales2007thesupport
+quartile: Q2

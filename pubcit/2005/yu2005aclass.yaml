@@ -1,5 +1,7 @@
 !Citation
+_key: yu2005aclass
 authors: ['Yu, ZJ', 'Wu, JD', 'Lu, SJ']
+title: A class of congruences in partial Abelian semigroups
 cites: [jenca2000notes]
 doi: 10.1007/s10582-006-0037-2
 endpage: 1539
@@ -12,9 +14,8 @@ number: 11
 organization: Czech Tech Univ; Joint Inst Nucl Res
 startpage: 1535
 tags: [scopus, zpub, zautor, wos]
-title: A class of congruences in partial Abelian semigroups
 type: article
 unique-id: ISI:000234401500037
 volume: 55
 year: 2005
-_key: yu2005aclass
+quartile: Q3

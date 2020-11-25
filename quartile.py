@@ -2,15 +2,18 @@
 
 import requests
 import sys
+import re
 from bs4 import BeautifulSoup as BS
 from bs4 import NavigableString
 from collections import defaultdict
 import difflib
 import colorama
+import time
+import functools
 colorama.init()
 
 def isjunk(s):
-    return s.isspace()
+    return not s.isalnum()
 
 class Journal:
 
@@ -18,7 +21,7 @@ class Journal:
         
         self.url=url
         self.title=title
-        self.ratio=difflib.SequenceMatcher(isjunk,self.match_to.lower(),self.title).ratio()
+        self.ratio=difflib.SequenceMatcher(isjunk,self.match_to.lower(),self.title.lower()).ratio()
 
     def __repr__(self):
 
@@ -42,47 +45,56 @@ def cells(row):
 
 
 URL='https://www.scimagojr.com/journalsearch.php'
-if len(sys.argv)!=2:
-    print(f'Usage: {sys.argv[0]} journal_name',file=sys.stderr)
-    sys.exit(1)
 
-params={'q':'+'.join(sys.argv[1].strip().split())}
-response=requests.get(URL,params)
-soup=BS(response.text,'html.parser')
-search_results=soup.find('div',class_='search_results').find_all('a')
-if len(search_results)==0:
-    print(colorama.Fore.RED+'Journal not found.'+colorama.Style.RESET_ALL,file=sys.stderr)
-    sys.exit(2)
-if len(search_results)>2:
-    print(colorama.Fore.YELLOW+'Several journals found, going for the best match. Maybe try a more specific query'+colorama.Style.RESET_ALL)
-journals=[]
-Journal.match_to=sys.argv[1].strip()
-for a_element in search_results:
-    path_to_journal=a_element['href']
-    title=a_element.span.text.strip()
-    journal_url=f'https://www.scimagojr.com/{path_to_journal}'
-#    response=requests.get(journal_url)
-#    soup=BS(response.text,'html.parser')
-    journal=Journal(journal_url,title)
-    journals.append(journal)
-journals.sort(key=lambda journal:journal.ratio,reverse=True)
-best=journals[0]
-response=requests.get(best.url)
-print(f'Journal: {best.title}')
-soup=BS(response.text,'html.parser')
-dashboard_tables=soup.find('div',class_='dashboard').find_all('table')
-quartiles_table=dashboard_tables[0]
-years=defaultdict(dict)
-if not quartiles_table.thead.find_all(string='Quartile'):
-    print(colorama.Fore.RED+'No quartiles found!'+colorama.Style.RESET_ALL)
-    exit(1)
-for row in rows(quartiles_table.tbody):
-    if type(row) is NavigableString:
-        continue
-    area,year,quartile=[cell.text for cell in cells(row)]
-    years[year][area]=quartile
-for year in years:
-    print(year,max(years[year].values()))
+@functools.lru_cache
+def get_quartiles(search_string):
 
+    journals=[]
+    for page in range(1,6):
+        params={
+            'q':'+'.join(search_string.strip().split()),
+            'page':page,
+        }
+        response=requests.get(URL,params)
+        soup=BS(response.text,'html.parser')
+        search_results=soup.find('div',class_='search_results').find_all('a')
+        if len(search_results)==0:
+            raise ValueError(f'"{search_string}": not found')
+        if len(search_results)>2 and page==1:
+            print(colorama.Fore.YELLOW+f'"{search_string}": Several journals found, going for the best match.'+colorama.Style.RESET_ALL,file=sys.stderr)
+        Journal.match_to=search_string.strip()
+        for a_element in search_results:
+            path_to_journal=a_element['href']
+            title=a_element.span.text.strip()
+            journal_url=f'https://www.scimagojr.com/{path_to_journal}'
+            journal=Journal(journal_url,title)
+            journals.append(journal)
+        paginator=re.search(r'\d+ - (\d+) of (\d+)',response.text)
+        if paginator and paginator.group(1)==paginator.group(2):
+            break
+        time.sleep(0.1)
+    journals=list(set(journals))
+    journals.sort(key=lambda journal:journal.ratio,reverse=True)
+    best=journals[0]
+    if len(journals)>1:
+        print(colorama.Fore.YELLOW+f'"{search_string}": found journal "{best.title}"'+colorama.Style.RESET_ALL,file=sys.stderr)
+    response=requests.get(best.url)
+    soup=BS(response.text,'html.parser')
+    dashboard_tables=soup.find('div',class_='dashboard').find_all('table')
+    quartiles_table=dashboard_tables[0]
+    years=defaultdict(dict)
+    if not quartiles_table.thead.find_all(string='Quartile'):
+        print(colorama.Fore.RED+f'"{best.title}": No quartiles found!'+colorama.Style.RESET_ALL)
+        raise ValueError
+    for row in rows(quartiles_table.tbody):
+        if type(row) is NavigableString:
+            continue
+        area,year,quartile=[cell.text for cell in cells(row)]
+        years[year][area]=quartile
+    ret={}
+    for year in years:
+        ret[int(year)]=min(years[year].values())
+    return best.title,ret
 
-
+if __name__=='__main__':
+    print(get_quartiles('order'))

@@ -1,5 +1,7 @@
 !Citation
+_key: dvurecenskij2016olson
 authors: ['Dvurečenskij, Anatolij']
+title: Olson Order of Quantum Observables
 cites: [jenca1999onsharp]
 doi: 10.1007/s10773-016-3113-9
 eissn: 1572-9575
@@ -10,9 +12,8 @@ month: NOV
 number: 11
 startpage: 4896
 tags: [zpub, voc2016, wos, dautor]
-title: Olson Order of Quantum Observables
 type: article
 unique_id: ISI:000386116300029
 volume: 55
 year: 2016
-_key: dvurecenskij2016olson
+quartile: Q3

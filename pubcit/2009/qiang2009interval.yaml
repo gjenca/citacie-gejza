@@ -1,5 +1,7 @@
 !Citation
+_key: qiang2009interval
 authors: ['Qiang, Lei', 'Junde, Wu', 'Ronglu, Li']
+title: Interval topology of lattice effect algebras
 cites: [jenca1999onsharp]
 doi: 10.1016/j.aml.2009.01.008
 endpage: 1006
@@ -9,9 +11,8 @@ month: JUL
 number: 7
 startpage: 1003
 tags: [zpub, zautor, wos]
-title: Interval topology of lattice effect algebras
 type: article
 unique-id: ISI:000266894100006
 volume: 22
 year: 2009
-_key: qiang2009interval
+quartile: Q2

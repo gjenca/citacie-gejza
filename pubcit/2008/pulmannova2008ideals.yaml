@@ -1,5 +1,7 @@
 !Citation
+_key: pulmannova2008ideals
 authors: ['Pulmannová, S.', 'Vinceková, E.']
+title: Ideals in MV-pairs
 cites: [jenca2004boolean, jenca2007arepresentation]
 doi: 10.1007/s00500-008-0282-3
 endpage: 1204
@@ -9,9 +11,8 @@ month: OCT
 number: 12
 startpage: 1199
 tags: [scopus, zpub, wos, dautor]
-title: Ideals in MV-pairs
 type: article
 unique-id: ISI:000258059700006
 volume: 12
 year: 2008
-_key: pulmannova2008ideals
+quartile: Q2

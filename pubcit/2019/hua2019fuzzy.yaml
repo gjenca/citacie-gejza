@@ -1,5 +1,7 @@
 !Citation
+_key: hua2019fuzzy
 authors: ['Hua, Xiujuan']
+title: Fuzzy rough set based on lattice effect algebra
 cites: [jenca2001ideals]
 doi: 10.3233/JIFS-171920
 eissn: 1875-8967
@@ -10,9 +12,8 @@ number: 1
 startpage: 29
 tags: [wos, zaut, zpub, voc2019]
 times_cited: 0
-title: Fuzzy rough set based on lattice effect algebra
 type: article
 unique_id: ISI:000459216600003
 volume: 36
 year: 2019
-_key: hua2019fuzzy
+quartile: Q2
