@@ -1,9 +1,0 @@
-#!/bin/bash
-yadata read pubcit ! type MyOwn ! filter '"journal" in dir()' ! exec -n 'print(journal)' |
-sort | uniq |
-while read JOURNAL
-do
-FNM_OUT=kvartily/$(echo "$JOURNAL" | tr ' ' '_').txt
-echo "Creating $FNM_OUT"
-./quartile.py "$JOURNAL" > "$FNM_OUT"
-done
