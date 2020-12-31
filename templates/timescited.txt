@@ -1,0 +1,3 @@
+# for rec in records_by_type("MyOwn"):
+{{ rec.citedby | length }}
+# endfor

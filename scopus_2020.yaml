@@ -1,0 +1,79 @@
+---
+!Citation
+authors: ['Bonnier, P.', 'Oberhauser, H.']
+title: Signature cumulants, ordered partitions, and independence of stochastic processes
+document_type: Article
+doi: 10.3150/20-BEJ1205
+endpage: 2757
+journal: Bernoulli
+note: cited By 0
+number: 4
+source: Scopus
+startpage: 2727
+type: article
+volume: 26
+year: 2020
+cites: [jenca2014linear]
+tags: [scopus,zpub,zaut]
+---
+!Citation
+authors: ['Westerbaan, A.', 'Westerbaan, B.', 'Van De Wetering, J.']
+title: A characterisation of ordered abstract probabilities
+article_number: 3394742
+document_type: Conference Paper
+doi: 10.1145/3373718.3394742
+endpage: 957
+journal: ACM International Conference Proceeding Series
+note: cited By 0
+source: Scopus
+startpage: 944
+type: conference
+year: 2020
+cites: [jenca2001blocks,jenca2015effect]
+tags: [scopus,zpub,zaut]
+---
+!Citation
+authors: ['Dietzel, C.', 'Rump, W.']
+title: The structure group of a non-degenerate effect algebra
+article_number: 27
+document_type: Article
+doi: 10.1007/s00012-020-00657-7
+journal: Algebra Universalis
+note: cited By 0
+number: 2
+source: Scopus
+type: article
+volume: 81
+year: 2020
+cites: [jenca2001blocks]
+tags: [scopus,zpub,zaut]
+---
+!Citation
+authors: ['Lemay, J.P.']
+title: Lifting coalgebra modalities and mell model structure to Eilenberg-Moore categories
+document_type: Article
+doi: 10.23638/LMCS-15(4:8)2019
+endpage: '8:50'
+journal: Logical Methods in Computer Science
+note: cited By 0
+number: 4
+source: Scopus
+startpage: '8:1'
+type: article
+volume: 15
+year: 2019
+cites: [jencova2017onmonoids]
+tags: [scopus,zpub,zaut]
+---
+!Citation
+authors: ['Rafiee Rad, S.', 'Sharafi, A.H.', 'Smets, S.']
+title: A Complete Axiomatisation for the Logic of Lattice Effect Algebras
+document_type: Article
+doi: 10.1007/s10773-019-04074-y
+journal: International Journal of Theoretical Physics
+note: cited By 2
+source: Scopus
+type: article
+year: 2019
+cites: [jenca2007theblock,jenca1999onsharp]
+tags: [scopus,zpub,zaut]
