@@ -1,21 +1,6 @@
 # extends "base.html"
 # block body
-<h1> Zoznam publikácií a citácií </h1>
-<h2>Vysvetlivky</h2>
-<ul>
-<li>[cc] Current contents</li>
-<li>[wos] Web of Science</li>
-<li>[scopus] Scopus</li>
-<li>[dpub] Domáca publikácia </li>
-<li>[zpub] Zahraničná publikácia </li>
-<li>[dautor] Jeden z autorov je domáci </li>
-<li>[zautor] Jeden z autorov je zahraničný </li>
-<li>[vocnnnn] Bolo nahlásené v rámci VOČ v roku nnn</li>
-</ul>
-
-# for rec in records_by_type("MyOwn"):
-  <h3>Paper:</h3>
-  <p>
+# macro publication
   {{ rec.authors_format("{f. }{vv}{ll{ }}{, jj}")|join(", ") }}:
   {{rec.title}},   
     #if rec.type=='article':
@@ -41,6 +26,23 @@
     # if rec.article_number
          art. nr.   {{rec.article_number}},
     # endif
+# endmacro
+<h1> Zoznam publikácií a citácií </h1>
+<h2>Vysvetlivky</h2>
+<ul>
+<li>[cc] Current contents</li>
+<li>[wos] Web of Science</li>
+<li>[scopus] Scopus</li>
+<li>[dpub] Domáca publikácia </li>
+<li>[zpub] Zahraničná publikácia </li>
+<li>[dautor] Jeden z autorov je domáci </li>
+<li>[zautor] Jeden z autorov je zahraničný </li>
+<li>[vocnnnn] Bolo nahlásené v rámci VOČ v roku nnn</li>
+</ul>
+
+# for rec in records_by_type("MyOwn"):
+  <h3>Paper:</h3>
+  <p>
     # if rec.preprint
            arxiv:{{rec.preprint}},
     # endif      
@@ -97,9 +99,6 @@
     [{{tag}}]
     # endif
     # endfor
-    # if 'as-preprint' in edge_tags[("cites",rec_cited._key,rec._key)]:
-    (Cited as preprint)
-    # endif
 
     </li>
   # endfor

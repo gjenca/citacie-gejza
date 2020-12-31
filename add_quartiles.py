@@ -7,6 +7,7 @@ from quartile import get_quartiles
 l=yaml.load_all(sys.stdin,Loader=yaml.Loader)
 for obj in l:
     obj['quartile']=None
+    obj['quartile_year']=None
     if 'journal' in obj:
         try:
             title,d=get_quartiles(obj['journal'])
@@ -16,6 +17,7 @@ for obj in l:
             for try_year in range(obj['year'],obj['year']-3,-1):
                 if  try_year in d:
                     obj['quartile']=d[try_year]
+                    obj['quartile_year']=try_year
                     break
             else:
                 obj['quartile']=None
