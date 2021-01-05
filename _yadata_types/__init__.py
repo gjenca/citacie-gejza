@@ -157,7 +157,7 @@ class Citation(BibRecord):
     @property
     def subdir(self):
         
-        return f'{self["year"]}'
+        return f'citation/{self["year"]}'
 
 class Review(Record):
 
