@@ -159,3 +159,58 @@ class Citation(BibRecord):
         
         return f'{self["year"]}'
 
+class Review(Record):
+
+    yadata_tag='!Review'
+   
+    def __init__(self,d):
+
+        for key in ('authors','journal','year','id'):
+            if key not in d:
+                raise ValueError(f'{key} missing in {d}')
+        Record.__init__(self,d)
+
+    def get_key_prefix(self):
+        
+        jrnl="".join(word[0] for word in self['journal'].strip().split())
+        return f'Review:{jrnl}:{self["year"]}:{self["id"]}'
+    
+    @property
+    def subdir(self):
+        
+        return f'reviews/{self["year"]}'
+   
+    def __eq__(self,other):
+        
+        if '_key' in self and '_key' in other:
+            return self['_key']==other['_key']
+        return self['journal']==other['journal'] and \
+            self['year']==other['year'] and \
+            self['id']==other['id']
+
+class Grant(Record):
+    
+    yadata_tag='!Grant'
+
+
+    def __init__(self,d):
+
+        for key in ('year','id','prijmy','vydavky'):
+            if key not in d:
+                raise ValueError(f'{key} missing in {d}')
+        Record.__init__(self,d)
+    
+    def get_key_prefix(self):
+        
+        return f'Grant:{self["id"]}:{self["year"]}'
+    
+    @property
+    def subdir(self):
+        
+        return f'grants/{self["year"]}'
+    
+    def __eq__(self,other):
+        
+        return self['year']==other['year'] and \
+            self['id']==other['id']
+

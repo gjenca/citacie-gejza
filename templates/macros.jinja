@@ -1,0 +1,26 @@
+%% macro publication(rec)
+{{  rec.authors_format("{f. }{vv}{ll{ }}{, jj}")|join(", ") }}: {{rec.title}},
+%% if rec.type=='article'
+  *{{rec.journal}}*,
+**{{rec.volume}}**
+({{rec.year}}),
+%% elif rec.type=='inproceedings' or rec.type=='incollection'
+In: *{{rec.booktitle}}*,
+       %% if rec.series:
+{{rec.series}},
+           %% if rec.volume: 
+Vol. **{{rec.volume}}**,
+           %% endif 
+       %% endif
+       %% if rec.publisher: 
+{{rec.publisher}},
+       %% endif    
+{{rec.year}},
+    %% endif
+    %% if rec.startpage and rec.endpage
+{{rec.startpage}}-{{rec.endpage}},
+    %% endif
+    %% if rec.article_number
+art. nr. {{rec.article_number}},
+    %% endif
+%% endmacro
