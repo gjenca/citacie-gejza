@@ -98,3 +98,5 @@ def get_quartiles(search_string):
 
 if __name__=='__main__':
     print(get_quartiles('order'))
+    print(get_quartiles('mathematica slovaca'))
+
