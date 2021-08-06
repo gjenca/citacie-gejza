@@ -97,6 +97,10 @@ def get_quartiles(search_string):
     return best.title,ret
 
 if __name__=='__main__':
-    print(get_quartiles('order'))
-    print(get_quartiles('mathematica slovaca'))
+    if len(sys.argv)<2:
+        print(get_quartiles('order'))
+        print(get_quartiles('mathematica slovaca'))
+    else:
+        for journal in sys.argv[1:]:
+            print(get_quartiles(journal))
 
