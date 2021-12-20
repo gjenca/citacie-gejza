@@ -6,6 +6,8 @@ from snip import get_snip
 
 l=yaml.load_all(sys.stdin,Loader=yaml.Loader)
 for obj in l:
+    if type(obj) not in (MyOwn,Citation):
+        continue
     snip=None
     snip_year=None
     if 'journal' in obj:

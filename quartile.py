@@ -21,11 +21,15 @@ class Journal:
         
         self.url=url
         self.title=title
-        self.ratio=difflib.SequenceMatcher(isjunk,self.match_to.lower(),self.title.lower()).ratio()
+#        self.ratio=difflib.SequenceMatcher(isjunk,self.match_to.lower(),self.title.lower()).ratio()
 
+    def match_ratio(self,match_string):
+
+        return difflib.SequenceMatcher(isjunk,match_string.lower(),self.title.lower()).ratio()
+    
     def __repr__(self):
 
-        return f'{self.title} (ratio={self.ratio})'
+        return f'{self.title}'
 
 
 def rows(tbody):
@@ -62,7 +66,7 @@ def get_quartiles(search_string):
             raise ValueError(f'"{search_string}": not found')
         if len(search_results)>2 and page==1:
             print(colorama.Fore.YELLOW+f'"{search_string}": Several journals found, going for the best match.'+colorama.Style.RESET_ALL,file=sys.stderr)
-        Journal.match_to=search_string.strip()
+        match_to=search_string.strip()
         for a_element in search_results:
             path_to_journal=a_element['href']
             title=a_element.span.text.strip()
@@ -74,7 +78,7 @@ def get_quartiles(search_string):
             break
         time.sleep(0.1)
     journals=list(set(journals))
-    journals.sort(key=lambda journal:journal.ratio,reverse=True)
+    journals.sort(key=lambda journal:journal.match_ratio(match_to),reverse=True)
     best=journals[0]
     if len(journals)>1:
         print(colorama.Fore.YELLOW+f'"{search_string}": found journal "{best.title}"'+colorama.Style.RESET_ALL,file=sys.stderr)

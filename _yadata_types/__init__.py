@@ -188,7 +188,9 @@ class Review(Record):
             self['year']==other['year'] and \
             self['id']==other['id']
 
-class Grant(Record):
+
+
+class GrantRok(Record):
     
     yadata_tag='!Grant'
 

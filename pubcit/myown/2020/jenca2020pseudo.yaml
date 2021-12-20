@@ -3,7 +3,7 @@ _key: jenca2020pseudo
 authors: ['Jenča, Gejza']
 title: Pseudo effect algebras are algebras over bounded posets
 doi: https://doi.org/10.1016/j.fss.2019.07.003
-grants: VEGA 2/0069/16 VEGA 1/0006/19 APVV-18-0052 APVV-16-0073
+grants: VEGA 2/0069/16,VEGA 1/0006/19,APVV-18-0052,APVV-16-0073
 issn: 0165-0114
 journal: Fuzzy Sets and Systems
 keywords: Pseudo effect algebras, Pseudo D-posets
@@ -12,9 +12,9 @@ type: article
 url: http://www.sciencedirect.com/science/article/pii/S0165011418309448
 year: 2020
 quartile: Q1
-snip: 2.035
+snip: 2.072
 quartile_year: 2019
-snip_year: 2019
+snip_year: 2020
 endpage: 185
 publisher: Elsevier
 startpage: 179

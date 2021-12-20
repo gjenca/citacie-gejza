@@ -6,6 +6,8 @@ from quartile import get_quartiles
 
 l=yaml.load_all(sys.stdin,Loader=yaml.Loader)
 for obj in l:
+    if type(obj) not in (MyOwn,Citation):
+        continue
     obj['quartile']=None
     obj['quartile_year']=None
     if 'journal' in obj:

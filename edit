@@ -1,0 +1,13 @@
+#!/bin/bash
+KEY="$1"
+if [ -z "$KEY" ]; then
+	echo 'Usage: '$0' key'
+	exit 1
+fi
+FNM=$(grep -l "^_key: *$KEY" $(find pubcit -name '*.yaml'))
+if [ -z "$FNM" ]; then
+	echo "$KEY" not found
+	exit 1
+fi
+$EDITOR $FNM
+
