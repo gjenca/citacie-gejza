@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 import yaml
 import sys
-from _yadata_types import MyOwn,Citation
+from _yadata_types import MyOwn,Citation,Review
 from quartile import get_quartiles
 
 l=yaml.load_all(sys.stdin,Loader=yaml.Loader)
 for obj in l:
-    if type(obj) not in (MyOwn,Citation):
+    if type(obj) not in (MyOwn,Citation,Review):
         continue
     obj['quartile']=None
     obj['quartile_year']=None

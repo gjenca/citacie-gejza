@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+from _yadata_types import Grant
+import sys
+
+with open('grants.txt') as f:
+    for line in f:
+        line=line.strip()
+        if not line:
+            continue
+        g=Grant({'id':line})
+        print('---')
+        sys.stdout.write(g.to_yaml())
+
+
+

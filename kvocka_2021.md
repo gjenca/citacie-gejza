@@ -158,5 +158,17 @@ G. Jenča: Effect Algebras as Presheaves on Finite Boolean Algebras,
 <p>
 #### Citovaný v (1):
  1. K. Cho, B. Westerbaan, J. van deWetering: Dichotomy between deterministic and probabilistic models in countably additive effectus theory,
+  *Electronic Proceedings in Theoretical Computer Science, EPTCS*,
+**340**
+(2021),
 91-113,
 
+
+
+### Posudok časopiseckého článku WoS, SCOPUS
+ 1. Soft Computing SOCO-D-20-02274 
+ 1. Algebra Universalis ALUN-D-21-00064 
+
+### Granty
+ 1. APVV-16-0073 -- fakultným účtovníctvom prešlo 3406.28 EUR
+ 1. APVV-20-0069 -- fakultným účtovníctvom prešlo 2266.51 EUR

@@ -1,5 +1,5 @@
 
-from yadata.record import Record,AddManyToMany
+from yadata.record import Record,AddManyToMany,AddOneToMany
 import unicodedata
 import re
 from urllib.request import Request,urlopen
@@ -36,6 +36,78 @@ def _exists_and_is_almost_same(d1,d2,fieldname):
         l2.sort()
         return l1 == l2
     return False
+
+class Year(Record):
+
+    yadata_tag='!Year'
+
+    def __init__(self,d):
+
+        if 'year' not in d:
+            raise ValueError(f'year missing in {d}')
+        Record.__init__(self,d)
+
+    def get_key_prefix(self):
+        
+        return f'{self["year"]}'
+
+    subdir='years'
+    
+    def __eq__(self,other):
+        
+        return self['year']==other['year']
+
+class Grant(Record):
+
+    yadata_tag='!Grant'
+
+    def __init__(self,d):
+
+        if 'id' not in d:
+            raise ValueError(f'id missing in {d}')
+        Record.__init__(self,d)
+
+    def get_key_prefix(self):
+        
+        return f'{self["id"]}'
+
+    subdir='grants'
+    
+    def __eq__(self,other):
+        
+        return self['id']==other['id']
+
+    def grantrok(self,rok):
+
+        return GrantRok({'grant':self['_key'],'year':rok,'prijmy':0.0,'vydavky':0.0})
+
+@AddOneToMany(fieldname='grant',inverse_type=Grant,inverse_fieldname='grantyears',inverse_sort_by=('year',))
+@AddOneToMany(fieldname='year',inverse_type=Year,inverse_fieldname='grants',forward=False)
+class GrantRok(Record):
+    
+    yadata_tag='!GrantRok'
+
+
+    def __init__(self,d):
+
+        for key in ('year','grant','prijmy','vydavky'):
+            if key not in d:
+                raise ValueError(f'{key} missing in {d}')
+        Record.__init__(self,d)
+    
+    def get_key_prefix(self):
+        
+        return f'{self["grant"]}:{self["year"]}'
+    
+    @property
+    def subdir(self):
+        
+        return f'grants/{self["grant"]}'
+    
+    def __eq__(self,other):
+        
+        return self['year']==other['year'] and \
+            self['grant']==other['grant']
 
 class BibRecord(Record):
 
@@ -140,6 +212,8 @@ class BibRecord(Record):
 
         return [format_name(auth,bst_format).replace('~',' ') for auth in self['authors']]
 
+@AddOneToMany(fieldname='year',inverse_type=Year,inverse_fieldname='myowns',forward=False)
+@AddManyToMany(fieldname='grants',inverse_type=Grant,inverse_fieldname='myowns',inverse_sort_by=('year',))
 class MyOwn(BibRecord):
 
     yadata_tag='!MyOwn'
@@ -149,6 +223,7 @@ class MyOwn(BibRecord):
         
         return f'myown/{self["year"]}'
 
+@AddOneToMany(fieldname='year',inverse_type=Year,inverse_fieldname='citations',forward=False)
 @AddManyToMany(fieldname='cites',inverse_type=MyOwn,inverse_fieldname='citedby',inverse_sort_by=('year',))
 class Citation(BibRecord):
 
@@ -186,33 +261,5 @@ class Review(Record):
             return self['_key']==other['_key']
         return self['journal']==other['journal'] and \
             self['year']==other['year'] and \
-            self['id']==other['id']
-
-
-
-class GrantRok(Record):
-    
-    yadata_tag='!Grant'
-
-
-    def __init__(self,d):
-
-        for key in ('year','id','prijmy','vydavky'):
-            if key not in d:
-                raise ValueError(f'{key} missing in {d}')
-        Record.__init__(self,d)
-    
-    def get_key_prefix(self):
-        
-        return f'Grant:{self["id"]}:{self["year"]}'
-    
-    @property
-    def subdir(self):
-        
-        return f'grants/{self["year"]}'
-    
-    def __eq__(self,other):
-        
-        return self['year']==other['year'] and \
             self['id']==other['id']
 

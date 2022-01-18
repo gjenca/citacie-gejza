@@ -1,8 +1,7 @@
-%% if records_by_type("Grant")
+%% if records_by_type("GrantRok")
 
-<p>
 ### Granty
-%% for grant in records_by_type("Grant")
- 1. {{grant.id}} -- fakultným účtovníctvom prešlo {{grant.vydavky}} EUR
+%% for grantrok in records_by_type("GrantRok")
+ 1. {{grantrok.grant.id}} -- fakultným účtovníctvom prešlo {{grantrok.vydavky}} EUR
 %% endfor
 %% endif
