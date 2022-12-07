@@ -57,6 +57,26 @@ class Year(Record):
         
         return self['year']==other['year']
 
+class Tag(Record):
+
+    yadata_tag = '!Tag'
+
+    def __init__(self,d):
+
+        if 'tag' not in d:
+            raise ValueError(f'tag missing in {d}')
+        Record.__init__(self,d)
+
+    def get_key_prefix(self):
+
+        return f'{self["tag"]}'
+
+    subdir='tags'
+    
+    def __eq__(self,other):
+        
+        return self['tag']==other['tag']
+
 class Grant(Record):
 
     yadata_tag='!Grant'
@@ -137,7 +157,7 @@ class BibRecord(Record):
 
     def _same_source(self,other):
 
-        return any(exists_and_is_almost_same(self,other,key) \
+        return any(_exists_and_is_almost_same(self,other,key) \
             for key in ('journal','series'))
 
     def _same_authors(self,other,preprocess=lambda x: x):
@@ -214,6 +234,7 @@ class BibRecord(Record):
 
 @AddOneToMany(fieldname='year',inverse_type=Year,inverse_fieldname='myowns',forward=False)
 @AddManyToMany(fieldname='grants',inverse_type=Grant,inverse_fieldname='myowns',inverse_sort_by=('year',))
+@AddManyToMany(fieldname='tags',inverse_type=Tag,inverse_fieldname='myowns',inverse_sort_by=('year',),forward=False)
 class MyOwn(BibRecord):
 
     yadata_tag='!MyOwn'
@@ -225,6 +246,7 @@ class MyOwn(BibRecord):
 
 @AddOneToMany(fieldname='year',inverse_type=Year,inverse_fieldname='citations',forward=False)
 @AddManyToMany(fieldname='cites',inverse_type=MyOwn,inverse_fieldname='citedby',inverse_sort_by=('year',))
+@AddManyToMany(fieldname='tags',inverse_type=Tag,inverse_fieldname='citations',inverse_sort_by=('year',),forward=False)
 class Citation(BibRecord):
 
     yadata_tag='!Citation'
