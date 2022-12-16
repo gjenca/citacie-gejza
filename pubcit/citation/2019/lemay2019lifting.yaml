@@ -14,6 +14,9 @@ type: article
 volume: 15
 year: 2019
 cites: [jencova2017onmonoids]
-tags: [scopus, zaut, zpub, voc2020]
+tags: [zpub, zaut, wos, voc2020, scopus]
 snip: 0.955
 snip_year: 2019
+article_number: 8
+issn: 1860-5974
+unique_id: WOS:000505789500008

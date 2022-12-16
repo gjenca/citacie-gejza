@@ -137,7 +137,7 @@ class BibRecord(Record):
 
     def _same_source(self,other):
 
-        return any(exists_and_is_almost_same(self,other,key) \
+        return any(_exists_and_is_almost_same(self,other,key) \
             for key in ('journal','series'))
 
     def _same_authors(self,other,preprocess=lambda x: x):

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import shelve
-from citescore_db.snip import make_key
+from citescore_db.make_key import make_key
 
 def get_snip(journal,year):
 
