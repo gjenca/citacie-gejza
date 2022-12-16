@@ -15,7 +15,11 @@ url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85062687604&doi=10.1007
 volume: 60
 year: 2021
 cites: [jenca2007theblock]
+<<<<<<< HEAD
 tags: [zpub, wos, zautor, voc2021, scopus]
+=======
+tags: [zautor, voc2021, scopus, zpub, wos]
+>>>>>>> c7ceb84b3e53a6ef314ed081c6493af4920b1289
 eissn: 1572-9575
 issn: 0020-7748
 month: FEB
