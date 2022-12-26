@@ -5,6 +5,6 @@ then
 else
    FILT="$1"
 fi
-yadata read pubcit ! filter "$FILT" ! type Citation ! exec -n 'print(cites)' |
+yadata read pubcit ! type Citation ! filter "$FILT" ! exec -n 'print(cites)' |
 	tr ',' '\n' | wc -l
 
