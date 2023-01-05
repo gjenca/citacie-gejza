@@ -27,4 +27,5 @@ jenca2016anote
 jenca2018effect
 jenca2019twomonads
 jenca2020pseudo
+jenca2022orthomodular
 jencova2017onmonoids
