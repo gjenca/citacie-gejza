@@ -1,6 +1,6 @@
 %% import "macros.jinja" as macros
 %% set count = namespace(myown=0,citwos=0,citscopus=0,cit=0)
-%% for rec in records_by_type('MyOwn')
+%% for rec in records_by_type('MyOwn') | sort_by('year')
   %% if rec.citedby:
 <p>
 
@@ -12,7 +12,7 @@ arxiv:{{rec.preprint}},
     %% endif      
 <p>  
 ### Cited in ({{ rec.citedby | length}}):
-  %% for rec_cited in rec.citedby:
+  %% for rec_cited in rec.citedby | sort_by('year')
     %% set count.cit = count.cit +1
     %% if "wos" in rec_cited.tags
       %% set count.citwos = count.citwos +1
