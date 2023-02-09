@@ -3,6 +3,6 @@
 # {{tag.tag}}
 ## Publikácie
 
-%% for rec in tag.myowns:
+%% for rec in tag.myowns | sort_by('year')
  1. {{ macros.publication(rec) }}
 %% endfor
