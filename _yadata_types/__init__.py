@@ -37,6 +37,26 @@ def _exists_and_is_almost_same(d1,d2,fieldname):
         return l1 == l2
     return False
 
+class Tag(Record):
+
+    yadata_tag = '!Tag'
+
+    def __init__(self,d):
+
+        if 'tag' not in d:
+            raise ValueError(f'tag missing in {d}')
+        Record.__init__(self,d)
+
+    def get_key_prefix(self):
+
+        return f'{self["tag"]}'
+
+    subdir='tags'
+    
+    def __eq__(self,other):
+        
+        return self['tag']==other['tag']
+
 class Year(Record):
 
     yadata_tag='!Year'
@@ -215,6 +235,7 @@ class BibRecord(Record):
 
 @AddOneToMany(fieldname='year',inverse_type=Year,inverse_fieldname='myowns',forward=False)
 @AddManyToMany(fieldname='grants',inverse_type=Grant,inverse_fieldname='myowns')
+@AddManyToMany(fieldname='tags',inverse_type=Tag,inverse_fieldname='myowns')
 class MyOwn(BibRecord):
 
     yadata_tag='!MyOwn'
@@ -226,6 +247,7 @@ class MyOwn(BibRecord):
 
 @AddOneToMany(fieldname='year',inverse_type=Year,inverse_fieldname='citations',forward=False)
 @AddManyToMany(fieldname='cites',inverse_type=MyOwn,inverse_fieldname='citedby')
+@AddManyToMany(fieldname='tags',inverse_type=Tag,inverse_fieldname='citations')
 class Citation(BibRecord):
 
     yadata_tag='!Citation'
