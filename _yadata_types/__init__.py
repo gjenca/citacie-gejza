@@ -57,6 +57,10 @@ class Tag(Record):
         
         return self['tag']==other['tag']
 
+    def __repr__(self):
+        
+        return self['tag']
+
 class Year(Record):
 
     yadata_tag='!Year'
