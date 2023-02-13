@@ -2,6 +2,7 @@
 from yadata.record import Record,AddManyToMany,AddOneToMany
 import unicodedata
 import re
+import sys
 from urllib.request import Request,urlopen
 
 try:
@@ -60,6 +61,11 @@ class Tag(Record):
     def __repr__(self):
         
         return self['tag']
+
+    @property
+    def number_of_citations(self):
+        
+        return sum(len(rec['cites']) for rec in self['citations'])
 
 class Year(Record):
 

@@ -27,6 +27,6 @@ arxiv:{{rec.preprint}},
 
 ### Number of cited papers: {{count.myown}}
 ### Number of citations: {{count.cit}}
-### Number of citations in WOS: {{wos.citations | length}}
-### Number of citations in Scopus: {{scopus.citations | length}}
+### Number of citations in WOS: {{wos.number_of_citations}}
+### Number of citations in Scopus: {{scopus.number_of_citations}}
 
