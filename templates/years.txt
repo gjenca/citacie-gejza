@@ -1,0 +1,5 @@
+# set years = records_by_type('Year')
+# for year in years | sort_by('year')
+{{year.year}}: {{year.number_of_citations}}
+# endfor
+

@@ -86,6 +86,11 @@ class Year(Record):
     def __eq__(self,other):
         
         return self['year']==other['year']
+    
+    @property
+    def number_of_citations(self):
+        
+        return sum(len(rec['cites']) for rec in self['citations'])
 
 
 class Grant(Record):
@@ -255,7 +260,7 @@ class MyOwn(BibRecord):
         
         return f'myown/{self["year"]}'
 
-@AddOneToMany(fieldname='year',inverse_type=Year,inverse_fieldname='citations',forward=False)
+@AddOneToMany(fieldname='year',inverse_type=Year,inverse_fieldname='citations')
 @AddManyToMany(fieldname='cites',inverse_type=MyOwn,inverse_fieldname='citedby')
 @AddManyToMany(fieldname='tags',inverse_type=Tag,inverse_fieldname='citations')
 class Citation(BibRecord):
