@@ -2,7 +2,7 @@
 %% if records_by_type("Citation")
 
 ### {{ extra.title }}
-%% for rec in records_by_type("MyOwn") | sort_by('year')
+%% for rec in records_by_type("MyOwn") | sort_by('year.year')
 %% if rec.citedby:
 
 #### Článok: 
@@ -10,7 +10,7 @@
 {{macros.publication(rec)}}
 <p>
 #### Citovaný v ({{ rec.citedby | length}}):
-%% for rec_cited in rec.citedby | sort_by('year')
+%% for rec_cited in rec.citedby | sort_by('year.year')
  1. {{macros.publication(rec_cited)}}
 %% endfor
 %% endif

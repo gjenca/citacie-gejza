@@ -92,6 +92,10 @@ class Year(Record):
         
         return sum(len(rec['cites']) for rec in self['citations'])
 
+    def __repr__(self):
+        
+        return f'{self["year"]}'
+
 
 class Grant(Record):
 
@@ -118,7 +122,7 @@ class Grant(Record):
         return GrantRok({'grant':self['_key'],'year':rok,'prijmy':0.0,'vydavky':0.0})
 
 @AddOneToMany(fieldname='grant',inverse_type=Grant,inverse_fieldname='grantyears')
-@AddOneToMany(fieldname='year',inverse_type=Year,inverse_fieldname='grants',forward=False)
+@AddOneToMany(fieldname='year',inverse_type=Year,inverse_fieldname='grants')
 class GrantRok(Record):
     
     yadata_tag='!GrantRok'
@@ -248,7 +252,7 @@ class BibRecord(Record):
 
         return [format_name(auth,bst_format).replace('~',' ') for auth in self['authors']]
 
-@AddOneToMany(fieldname='year',inverse_type=Year,inverse_fieldname='myowns',forward=False)
+@AddOneToMany(fieldname='year',inverse_type=Year,inverse_fieldname='myowns')
 @AddManyToMany(fieldname='grants',inverse_type=Grant,inverse_fieldname='myowns')
 @AddManyToMany(fieldname='tags',inverse_type=Tag,inverse_fieldname='myowns')
 class MyOwn(BibRecord):
