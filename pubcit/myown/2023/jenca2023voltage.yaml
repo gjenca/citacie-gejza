@@ -1,21 +1,20 @@
 !MyOwn
 _key: jenca2023voltage
 authors: ['Jenča, Gejza']
-title: Voltage Lifts of Graphs from a Category Theory ViewPoint
-doi: doi:10.1515/ms-2023-0023
+title: Voltage lifts of graphs from a category theory viewpoint
 endpage: 288
 journal: Mathematica Slovaca
-lastchecked: '2023-03-31'
 number: 2
+publisher: De Gruyter
 startpage: 275
 type: article
-url: https://doi.org/10.1515/ms-2023-0023
 volume: 73
 year: 2023
-tags: [scopus, wos, zpub]
+tags: [wos, scopus, dpub]
 grants: [VEGA-2-0142-20, VEGA-1-0006-19, APVV-18-0052, APVV-20-0069]
 quartile: Q2
-quartile_year: 2021
-jif: 0.996
-jif_year: 2021
-jif_quartile: Q2
+quartile_year: 2022
+document_type: Article
+doi: 10.1515/ms-2023-0023
+note: cited By 0
+source: Scopus
