@@ -1,0 +1,171 @@
+---
+!MyOwn
+_key: jenca2018effect
+authors: ['Jenča, Gejza']
+title: Effect Algebras as Presheaves on Finite Boolean Algebras
+arxiv: 1705.06498
+doi: 10.1007/s11083-017-9447-y
+endpage: 540
+grants: [VEGA-2-0069-16, VEGA-1-0420-15, APVV-14-0013, APVV-16-0073]
+issn: 1572-9273
+journal: Order
+month: Nov
+number: 3
+startpage: 525
+tags: [scopus, voc2018, zpub, wos]
+type: article
+url: https://doi.org/10.1007/s11083-017-9447-y
+volume: 35
+year: 2018
+quartile: Q3
+snip: 0.943
+quartile_year: 2017
+snip_year: 2018
+jif: 0.353
+jif_year: 2017
+jif_quartile: Q4
+---
+!MyOwn
+_key: jenca2023voltage
+authors: ['Jenča, Gejza']
+title: Voltage Lifts of Graphs from a Category Theory ViewPoint
+doi: doi:10.1515/ms-2023-0023
+endpage: 288
+journal: Mathematica Slovaca
+lastchecked: '2023-03-31'
+number: 2
+startpage: 275
+type: article
+url: https://doi.org/10.1515/ms-2023-0023
+volume: 73
+year: 2023
+tags: [scopus, wos, zpub]
+grants: [VEGA-2-0142-20, VEGA-1-0006-19, APVV-18-0052, APVV-20-0069]
+quartile: Q2
+quartile_year: 2021
+jif: 0.996
+jif_year: 2021
+jif_quartile: Q2
+---
+!MyOwn
+_key: jenca2019twomonads
+authors: ['Jenča, G.']
+title: Two monads on the category of graphs
+arxiv: 1706.00081
+document_type: Article
+doi: 10.1515/ms-2017-0220
+endpage: 266
+grants: [VEGA-2-0069-16, VEGA-1-0420-15, APVV-14-0013, APVV-16-0073]
+journal: Mathematica Slovaca
+note: cited By 0
+number: 2
+source: Scopus
+startpage: 257
+tags: [scopus, wos, dpub]
+type: article
+url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85063431890&doi=10.1515%2fms-2017-0220&partnerID=40&md5=8a042bc380f504ce0a621d10414b6026
+volume: 69
+year: 2019
+quartile: Q3
+snip: 0.794
+quartile_year: 2018
+snip_year: 2019
+jif: 0.490
+jif_year: 2018
+jif_quartile: Q3
+---
+!MyOwn
+_key: jencova2017onmonoids
+authors: ['Jenčová, A.', 'Jenča, G.']
+title: On Monoids in the Category of Sets and Relations
+arxiv: 1703.03728
+document_type: Article
+doi: 10.1007/s10773-017-3304-z
+endpage: 3769
+grants: [VEGA-2-0069-16, VEGA-1-0420-15, APVV-14-0013]
+journal: International Journal of Theoretical Physics
+note: cited By 0
+number: 12
+source: Scopus
+startpage: 3757
+tags: [cc, scopus, zpub, voc2017, wos]
+type: article
+volume: 56
+year: 2017
+quartile: Q3
+snip: 0.49
+quartile_year: 2016
+snip_year: 2017
+jif: 0.964
+jif_year: 2016
+jif_quartile: Q3
+---
+!MyOwn
+_key: jenca2022orthogonality
+authors: ['Jenča, Gejza']
+title: Orthogonality Spaces Associated with Posets
+doi: 10.1007/s11083-022-09623-5
+journal: Order
+note: 'Cited by: 0; All Open Access, Green Open Access'
+publication_stage: Article in press
+source: Scopus
+type: Article
+url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85144741121&doi=10.1007%2fs11083-022-09623-5&partnerID=40&md5=5b417537ea8d6001a8153a3f286a00d5
+year: 2022
+tags: [scopus, wos, zpub]
+grants: [VEGA-2-0142-20, VEGA-1-0006-19, APVV-18-0052, APVV-20-0069]
+quartile: Q2
+quartile_year: 2021
+jif: 0.558
+jif_year: 2021
+jif_quartile: Q4
+---
+!MyOwn
+_key: jenca2022orthomodular
+authors: [Gejza Jenča]
+title: Orthomodular posets are algebras over bounded posets with involution
+doi: 10.1007/s00500-021-06433-6
+endpage: 498
+journal: Soft Computing
+note: 'Cited by: 0; All Open Access, Green Open Access'
+number: 2
+publication_stage: Final
+startpage: 491
+type: article
+url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85119701424&doi=10.1007%2fs00500-021-06433-6&partnerID=40&md5=bf9b17208101915ff7aa9dda85ae241e
+volume: 26
+year: 2022
+tags: [wos, voc2022, scopus, cc]
+snip: 1.463
+snip_year: 2020
+quartile: Q2
+quartile_year: 2021
+grants: [VEGA-2-0142-20, VEGA-1-0006-19, APVV-18-0052, APVV-20-0069]
+jif: 3.732
+jif_year: 2021
+jif_quartile: Q2
+---
+!MyOwn
+_key: jenca2020pseudo
+authors: ['Jenča, Gejza']
+title: Pseudo effect algebras are algebras over bounded posets
+doi: https://doi.org/10.1016/j.fss.2019.07.003
+grants: [VEGA-2-0069-16, VEGA-1-0006-19, APVV-18-0052, APVV-16-0073]
+issn: 0165-0114
+journal: Fuzzy Sets and Systems
+keywords: Pseudo effect algebras, Pseudo D-posets
+tags: [cc, scopus, wos, zpub, voc2020]
+type: article
+url: http://www.sciencedirect.com/science/article/pii/S0165011418309448
+year: 2020
+quartile: Q1
+snip: 2.072
+quartile_year: 2019
+snip_year: 2020
+endpage: 185
+publisher: Elsevier
+startpage: 179
+volume: 397
+jif: 3.305
+jif_year: 2019
+jif_quartile: Q1

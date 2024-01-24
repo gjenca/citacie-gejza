@@ -2,7 +2,7 @@
 _key: jenca2023orthogonality
 authors: ['Jenča, G.']
 title: Orthogonality Spaces Associated with Posets
-document_type: Article
+document_type: article
 doi: 10.1007/s11083-022-09623-5
 endpage: 588
 journal: Order
@@ -14,5 +14,7 @@ type: article
 url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85144741121&doi=10.1007%2fs11083-022-09623-5&partnerID=40&md5=5b417537ea8d6001a8153a3f286a00d5
 volume: 40
 year: 2023
-grants: [VEGA-2-0142-20,VEGA-1-0006-19,APVV-18-0052,APVV-20-0069]
-tags: [zpub,wos,scopus]
+grants: [VEGA-2-0142-20, VEGA-1-0006-19, APVV-18-0052, APVV-20-0069]
+tags: [zpub, wos, scopus]
+quartile: Q3
+quartile_year: 2022
