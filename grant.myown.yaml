@@ -38,6 +38,8 @@ volume: 384
 year: 2023
 grants: [VEGA-2-0142-20, VEGA-1-0036-23, APVV-18-0052, APVV-20-0069]
 tags: [zpub, wos, scopus]
+quartile: null
+quartile_year: null
 ---
 !MyOwn
 _key: jenca2023orthogonality
@@ -57,6 +59,8 @@ volume: 40
 year: 2023
 grants: [VEGA-2-0142-20, VEGA-1-0006-19, APVV-18-0052, APVV-20-0069]
 tags: [zpub, wos, scopus]
+quartile: Q3
+quartile_year: 2022
 ---
 !MyOwn
 _key: jenca2023voltage
