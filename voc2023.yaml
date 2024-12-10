@@ -1,466 +1,342 @@
 ---
-!MyOwn
-_key: jenca1999onsharp
-authors: ['Jenča, G.', 'Riečanová, Z.']
-title: On sharp elements in lattice ordered effect algebras
-endpage: 29
-grants: [VEGA-G-1-4297-97]
-journal: BUSEFAL
-purge_tags: [scopus]
-startpage: 24
-tags: [zpub]
+!Citation
+_key: wu2023notes
+authors: ['Wu, Yali', 'Li, Xia', 'Wang, Jing']
+title: Notes on Sharp and Principal Elements in Effect Algebras
+doi: 10.1007/s11083-022-09619-1
+earlyaccessdate: JAN 2023
+eissn: 1572-9273
+issn: 0167-8094
+journal: Order-a Journal on the Theory of Ordered Sets and Its Applications
+month: 2023 JAN 17
 type: article
-volume: 80
-year: 1999
-quartile: null
-snip: null
-quartile_year: null
-snip_year: null
+unique_id: WOS:000917846500001
+volume: 40
+startpage: 525
+endpage: 536
+year: 2023
+cites: [jenca1999onsharp]
+tags: [wos, zaut, voc2023, zpub]
 is_old: false
 ---
-!MyOwn
-_key: jenca1999sheaf
-authors: ['Jenča, G.']
-title: Sheaf representations of partial abelian monoids
-endpage: 70
-grants: [VEGA-G-1-4297-97]
-issue: 10/s
-journal: Journal of Electrical Engineering
-startpage: 66
-tags: [dpub]
-type: article
-volume: 50
-year: 1999
-quartile: null
-snip: null
-quartile_year: null
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca1999anote
-authors: ['Jenča, G.']
-title: A note on ideals in generalized effect algebras
-endpage: 85
-grants: [VEGA-G-1-4297-97]
-journal: Tatra Mountains Mathematical Publications
-startpage: 81
-tags: [dpub]
-type: article
-volume: 16
-year: 1999
-quartile: null
-snip: null
-quartile_year: null
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2000subcentral
-authors: ['Jenča, G.']
-title: Subcentral ideals in generalized effect algebras
-endpage: 755
-grants: [VEGA-G-1-4297-97]
-issue: 3
-journal: International Journal of Theoretical Physics
-startpage: 745
-tags: [cc, zpub, wos]
-type: article
-volume: 39
-year: 2000
-quartile: Q3
-snip: null
-quartile_year: 2000
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2000notes
-authors: ['Jenča, G.']
-title: Notes on R1-ideals in partial abelian monoids
-endpage: 319
-grants: [VEGA-G-1-4297-97]
-issue: 4
-journal: Algebra Universalis
-startpage: 307
-tags: [zpub, wos]
-type: article
-volume: 43
-year: 2000
-quartile: Q4
-snip: null
-quartile_year: 2000
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2001asurvey
-authors: ['Jenča, G.', 'Riečanová, Z.']
-title: A Survey on Sharp Elements in Unsharp Quantum Logics
-endpage: 239
-grants: [VEGA-G-1-7625-20]
-issue: 7-8
-journal: Journal of Electrical Engineering
-startpage: 237
-tags: [dpub]
-type: article
-volume: 52
-year: 2001
-quartile: null
-snip: null
-quartile_year: null
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2001ideals
-authors: ['Jenča, G.', 'Pulmannová, S.']
-title: Ideals and Quotients in Lattice Ordered Effect Algebras
-endpage: 380
-grants: []
-journal: Soft Computing
-startpage: 376
-tags: [zpub]
-type: article
-volume: 5
-year: 2001
-quartile: Q4
-snip: null
-quartile_year: 2001
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2001blocks
-authors: ['Jenča, G.']
-title: Blocks of homogeneous effect algebras
-arxiv: 1504.00354
-endpage: 98
-grants: [VEGA-G-1-7625-20]
-issue: 1
-journal: Bulletin of the Australian Mathematical Society
-startpage: 81
-tags: [cc, zpub, wos]
-type: article
-volume: 64
-year: 2001
-quartile: Q3
-snip: null
-quartile_year: 2001
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2002central
-authors: ['Jenča, Gejza', 'Marinová, Ivica', 'Riečanová, Zdenka']
-title: Central elements, blocks and sharp elements of lattice effect algebras
-booktitle: Proceedings of the third seminar Fuzzy Sets and Quantum Structures, Vyhne,
-  Slovakia
-endpage: 33
-grants: []
-startpage: 28
-tags: [dpub]
-type: inproceedings
-year: 2002
-quartile: null
-quartile_year: null
-snip: null
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2002quotients
-authors: ['Jenča, G.', 'Pulmannová, S.']
-title: Quotients of partial abelian monoids and the Riesz decomposition property
-endpage: 477
-grants: [VEGA-G-1-4297-97, VEGA-G-2-4033-97]
-issue: 4
-journal: Algebra Universalis
-startpage: 443
-tags: [zpub, wos]
-type: article
-volume: 47
-year: 2002
-quartile: Q3
-snip: null
-quartile_year: 2002
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2002acantorbernstein
-authors: ['Jenča, G.']
-title: A Cantor-Bernstein type theorem for effect algebras
-endpage: 411
-grants: [VEGA-G-1-7625-20]
-issue: 4
-journal: Algebra Universalis
-startpage: 399
-tags: [zpub, wos]
-type: article
-volume: 48
-year: 2002
-quartile: Q3
-snip: null
-quartile_year: 2002
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2003orthocomplete
-authors: ['Jenča, G.', 'Pulmannová, S.']
-title: Orthocomplete effect algebras
-endpage: 2671
-grants: [VEGA-G-1-7625-20, VEGA-G-2-7193-20]
-issue: 9
-journal: Proceedings of the American Mathematical Society
-startpage: 2663
-tags: [cc, zpub, wos]
-type: article
-volume: 131
-year: 2003
-quartile: Q2
-snip: null
-quartile_year: 2003
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2003finite
-authors: ['Jenča, G.']
-title: Finite homogeneous and lattice ordered effect algebras
-endpage: 214
-grants: [VEGA-G-1-7625-20]
-issue: 2-3
-journal: Discrete Mathematics
-startpage: 197
-tags: [zpub, wos]
-type: article
-volume: 272
-year: 2003
-quartile: Q2
-snip: null
-quartile_year: 2003
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2004boolean
-authors: ['Jenča, G.']
-title: Boolean algebras R-generated by MV-effect algebras
-endpage: 285
-grants: [VEGA-G-1-7625-20]
-issue: 2
-journal: Fuzzy Sets and Systems
-startpage: 279
-tags: [cc, zpub, wos]
-type: article
-volume: 145
-year: 2004
-quartile: Q1
-snip: null
-quartile_year: 2004
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2007arepresentation
-authors: ['Jenča, G.']
-title: A representation theorem for MV-algebras
-arxiv: math/0602169
-endpage: 564
-grants: [VEGA-G-1-3025-06, APVT-51-032002]
-issue: 6
-journal: Soft Computing
-startpage: 557
-tags: [cc, zpub, wos]
-type: article
-volume: 11
-year: 2007
-quartile: Q3
-snip: null
-quartile_year: 2007
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2007theblock
-authors: ['Jenča, G.']
-title: The block structure of complete lattice ordered effect algebras
-endpage: 216
-grants: [VEGA-G-1-0266-03, APVT-51-032002]
-issue: 2
-journal: Journal of the Australian Mathematical Society
-startpage: 181
-tags: [cc, zpub, wos]
-type: article
-volume: 83
-year: 2007
-quartile: Q2
-snip: null
-quartile_year: 2007
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: dinola2009thecategory
-authors: ['Di Nola, A.', 'Holčapek, M.', 'Jenča, G.']
-title: The category of MV-pairs
-endpage: 412
-grants: [VEGA-G-1-3025-06, APVT-51-032002, APVV-0071-06]
-issue: 4
-journal: Logic Journal of the IGPL
-startpage: 395
-tags: [zpub, wos]
-type: article
-volume: 17
-year: 2009
-quartile: Q1
-snip: null
-quartile_year: 2009
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca20100homogeneous
-authors: ['Jenča, G.']
-title: 0-homogeneous effect algebras
-endpage: 1116
-grants: [VEGA-G-1-3025-06, VEGA-G-1-0500-09, APVT-51-032002, APVV-0071-06]
-issue: 10
-journal: Soft Computing
-startpage: 1111
-tags: [cc, zpub, wos]
-type: article
-volume: 14
-year: 2010
-quartile: Q2
-snip: null
-quartile_year: 2010
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2010sharp
-authors: ['Jenča, G.']
-title: Sharp and Meager Elements in Orthocomplete Homogeneous Effect Algebras
-endpage: 61
-grants: [VEGA-G-1-3025-06, APVT-51-032002, APVV-0071-06]
-journal: Order
-startpage: 41
-tags: [zpub, wos]
-type: article
-volume: 27
-year: 2010
-quartile: Q3
-snip: null
-quartile_year: 2010
-snip_year: null
-is_old: false
----
-!MyOwn
-_key: jenca2011coexistence
-authors: ['Jenča, G.']
-title: Coexistence in interval effect algebras
-arxiv: '0910.2823'
-endpage: 344
-grants: [APVV-0071-06, VEGA-G-1-0080-10]
-issue: 1
-journal: Proceedings of the American Mathematical Society
-startpage: 331
-tags: [cc, zpub, wos]
-type: article
-volume: 139
-year: 2011
-quartile: Q1
-snip: 1.07
-quartile_year: 2011
-snip_year: 2011
-is_old: false
----
-!MyOwn
-_key: jenca2012compatibility
-authors: ['Jenča, G.']
-title: Compatibility support mappings in effect algebras
-arxiv: '0910.2825'
-endpage: 378
-grants: [VEGA-G-1-0080-10, VEGA-G-1-0297-11, VEGA-G-2-0059-12, APVV-0178-11, APVV-0073-10]
-issue: 3
-journal: Mathematica Slovaca
-startpage: 363
-tags: [voc2012, scopus, dpub, wos]
-type: article
-volume: 62
-year: 2012
-quartile: Q3
-snip: 0.954
-quartile_year: 2012
-snip_year: 2012
-is_old: false
----
-!MyOwn
-_key: jenca2012extensions
-authors: ['Jenča, G.']
-title: Extensions of Witness Mappings
+!Citation
+_key: linzi2023aresult
+authors: ['Linzi, A.']
+title: A Result of Krasner in Categorial Form
+article_number: 4923
 document_type: Article
-endpage: 544
-grants: [VEGA-G-1-0080-10, VEGA-G-1-0297-11, APVV-0071-06, APVV-0073-10]
-journal: Order
-note: cited By (since 1996) 0
-number: 3
+doi: 10.3390/math11244923
+journal: Mathematics
+note: cited By 0
+number: 24
 source: Scopus
-startpage: 533
-tags: [voc2012, scopus, zpub, wos]
 type: article
-url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84867097683&partnerID=40&md5=48a43d5c253d964d3242aac9a67de8f1
-volume: 29
-year: 2012
+url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85180729072&doi=10.3390%2fmath11244923&partnerID=40&md5=0c0b05e10b09d31c7f87c893acf2dc70
+volume: 11
+year: 2023
+cites: [jencova2017onmonoids]
+tags: [zautor, scopus, voc2023, zpub]
+is_old: false
+---
+!Citation
+_key: garcia-segador2023characterizing
+authors: ['García-Segador, P.', 'Miranda, P.']
+title: Characterizing posets with more linear extensions than ideals
+endpage: 194
+issn: 2202-3518
+journal: Australasian Journal of Combinatorics
+number: 2
+startpage: 164
+type: article
+unique_id: WOS:000925011500005
+volume: 85
+year: 2023
+cites: [jenca2014linear]
+tags: [wos, voc2023, zautor, scopus, zpub]
+document_type: Article
+note: cited By 0
+source: Scopus
+is_old: false
+---
+!Citation
+_key: shi2023interval
+authors: ['Shi, F.-G.', 'Wei, X.']
+title: Interval convexity of scale effect algebras
+doi: 10.1080/00927872.2023.2173765
+earlyaccessdate: FEB 2023
+eissn: 1532-4125
+endpage: 2894
+issn: 0092-7872
+journal: Communications in Algebra
+month: JUL 3
+number: 7
+startpage: 2877
+type: article
+unique_id: WOS:000924780800001
+volume: 51
+year: 2023
+cites: [jenca2020pseudo]
+tags: [wos, voc2023, scopus, zaut, zpub]
+document_type: Article
+note: cited By 0
+source: Scopus
+url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85147577858&doi=10.1080%2f00927872.2023.2173765&partnerID=40&md5=f02babdb50d695a73d3d49e53a070155
+is_old: false
+---
+!Citation
+_key: rump2023thegeometry
+authors: ['Rump, Wolfgang']
+title: The geometry of discrete <i>L</i>-algebras
+doi: 10.1515/advgeom-2023-0023
+eissn: 1615-7168
+endpage: 565
+issn: 1615-715X
+journal: Advances in Geometry
+month: OCT 26
+number: 4
+startpage: 543
+type: article
+unique_id: WOS:001086669200002
+volume: 23
+year: 2023
+tags: [wos, zaut, voc2023]
+cites: [jenca1999onsharp]
+is_old: false
+---
+!Review
+_key: Review:O:2020:ORDE-D-19-00076
+authors: ['Bińczak, G.', 'Kaleta, J.', 'Zembruski, A.']
+title: Joins in finite effect algebras
+journal: Order
+year: 2020
+id: ORDE-D-19-00076
+tags: [voc2020, scopus, wos, zpub, zaut]
+snip: 1.024
+snip_year: 2020
 quartile: Q3
-snip: 0.686
-quartile_year: 2012
-snip_year: 2012
-is_old: false
+quartile_year: 2020
 ---
-!MyOwn
-_key: jenca2013congruences
-authors: ['Jenča, Gejza']
-title: Congruences generated by ideals of the compatibility center of lattice effect
-  algebras
-endpage: 47
-grants: [VEGA-G-2-0059-12, VEGA-G-1-0297-11, APVV-0073-10, APVV-0178-11]
+!Review
+_key: Review:AoPaAL:2020:APAL-D-20-00067
+authors: ['Reggio, L.']
+title: Beth definability and the Stone-Weierstrass Theorem
+journal: Annals of Pure and Applied Logic
+year: 2020
+id: APAL-D-20-00067
+tags: [voc2020, scopus, wos, zpub, zaut]
+snip: 1.219
+snip_year: 2020
+quartile: Q1
+quartile_year: 2020
+---
+!Review
+_key: Review:O:2022:ORDE-D-22-00032
+authors: [Fu-Gui Shi, Xiaowei Wei]
+title: Notes on Sharp and Principal Elements in Effect Algebras
+journal: Order
+year: 2022
+id: ORDE-D-22-00032
+tags: [voc2022, scopus, wos, zpub, zaut]
+---
+!Review
+_key: Review:CiA:2022:LAGB-2022-12265
+authors: [Fu-Gui Shi, Xiaowei Wei]
+title: Interval convexity of scale effect algebras
+journal: Communications in Algebra
+year: 2022
+id: LAGB-2022-12265
+tags: [voc2022, scopus, wos, zpub, zaut]
+---
+!Review
+_key: Review:SC:2022:SOCO-D-20-02274
+authors: [Grzegorz Bińczak, Joanna Kaleta, Andrzej Zembrzuski]
+title: States of finite effect algebras
 journal: Soft Computing
-number: 1
-publisher: Springer-Verlag
-startpage: 45
-tags: [cc, scopus, zpub, wos, voc2013]
-type: article
-volume: 17
-year: 2013
-quartile: Q1
-snip: 1.457
-quartile_year: 2013
-snip_year: 2013
-is_old: false
+year: 2022
+id: SOCO-D-20-02274
+tags: [voc2022, scopus, wos, zpub, zaut]
 ---
-!MyOwn
-_key: jenca2014linear
-authors: ['Jenča, Gejza', 'Sarkoci, Peter']
-title: Linear extensions and order-preserving poset partitions
-arxiv: 1112.5782
-endpage: 38
-grants: [VEGA-G-2-0059-12, VEGA-G-1-0297-11, APVV-0073-10, APVV-0178-11]
-journal: Journal of Combinatorial Theory, Series A
-publisher: Academic Press
-startpage: 28
-tags: [cc, scopus, sci, voc2014, wos, zpub]
-type: article
-volume: 122
-year: 2014
-quartile: Q1
-snip: 1.542
-quartile_year: 2014
-snip_year: 2014
-is_old: false
+!Review
+_key: Review:FSaS:2022:FSS-D-22-00302
+authors: [Ivan Chajda, Helmut Länger]
+title: Operator residuation in orthomodular posets of finite height
+journal: Fuzzy Sets and Systems
+year: 2022
+id: FSS-D-22-00302
+tags: [voc2022, scopus, wos, zpub, zaut]
+---
+!Review
+_key: Review:AU:2022:ALUN-D-22-00011
+authors: [Ao Shen, Quingguo Li]
+title: Solution to two problems on ideally conjunctive join-semilattice
+journal: Algebra Universalis
+year: 2022
+id: ALUN-D-22-00011
+tags: [voc2022, scopus, wos, zpub, zaut]
+---
+!Review
+_key: Review:CiA:2022:LAGB-2021-12006
+authors: [Milan Matoušek, Pavel Pták]
+title: Orthosystems of submodules of a module
+journal: Communications in Algebra
+year: 2022
+id: LAGB-2021-12006
+tags: [voc2022, scopus, wos, zpub, zaut]
+---
+!Review
+_key: Review:AU:2022:ALUN-D-21-00084
+authors: [Grzegorz Bińczak, Joanna Kaleta, Andrzej Zembrzuski]
+title: Joins and meets in effect algebra
+journal: Algebra Universalis
+year: 2022
+id: ALUN-D-21-00084
+tags: [voc2022, scopus, wos, zpub, zaut]
+---
+!Review
+_key: Review:AU:2021:ALUN-D-21-00064
+authors: [Xiao Long Xin, Xiao Fei Yang]
+title: Pseudo L-algebras
+journal: Algebra Universalis
+year: 2021
+id: ALUN-D-21-00064
+tags: [voc2021, scopus, wos, zpub, zaut]
+snip: 0.958
+snip_year: 2020
+quartile: Q2
+quartile_year: 2020
+---
+!Review
+_key: Review:SC:2021:SOCO-D-20-02274
+authors: [P. Vittolo]
+title: Kalmbach measurability in D-lattices
+journal: Soft Computing
+year: 2021
+id: SOCO-D-20-02274
+tags: [voc2021, scopus, wos, zpub, zaut]
+snip: 1.463
+snip_year: 2020
+quartile: Q2
+quartile_year: 2020
+---
+!Grant
+_key: VEGA-1-0036-23
+id: VEGA-1-0036-23
+---
+!Grant
+_key: VEGA-G-1-0297-11
+id: VEGA-G-1-0297-11
+---
+!Grant
+_key: VEGA-1-0420-15
+id: VEGA-1-0420-15
+---
+!Grant
+_key: VEGA-G-1-4297-97
+id: VEGA-G-1-4297-97
+---
+!Grant
+_key: VEGA-2-0142-20
+id: VEGA-2-0142-20
+---
+!Grant
+_key: VEGA-2-0069-16
+id: VEGA-2-0069-16
+---
+!Grant
+_key: APVV-14-0013
+id: APVV-14-0013
+---
+!Grant
+_key: VEGA-G-1-0500-09
+id: VEGA-G-1-0500-09
+---
+!Grant
+_key: VEGA-G-2-7193-20
+id: VEGA-G-2-7193-20
+---
+!Grant
+_key: APVV-16-0073
+id: APVV-16-0073
+---
+!Grant
+_key: APVV-0178-11
+id: APVV-0178-11
+---
+!Grant
+_key: VEGA-G-2-0059-12
+id: VEGA-G-2-0059-12
+---
+!Grant
+_key: APVV-0071-06
+id: APVV-0071-06
+---
+!Grant
+_key: VEGA-G-1-3025-06
+id: VEGA-G-1-3025-06
+---
+!Grant
+_key: VEGA-G-1-0266-03
+id: VEGA-G-1-0266-03
+---
+!Grant
+_key: VEGA-1-0006-19
+id: VEGA-1-0006-19
+---
+!Grant
+_key: APVV-0073-10
+id: APVV-0073-10
+---
+!Grant
+_key: VEGA-G-1-7625-20
+id: VEGA-G-1-7625-20
+---
+!Grant
+_key: VEGA-G-2-4033-97
+id: VEGA-G-2-4033-97
+---
+!Grant
+_key: APVV-20-0069
+id: APVV-20-0069
+---
+!Grant
+_key: APVV-18-0052
+id: APVV-18-0052
+---
+!Grant
+_key: VEGA-G-1-0080-10
+id: VEGA-G-1-0080-10
+---
+!Grant
+_key: APVT-51-032002
+id: APVT-51-032002
+---
+!GrantRok
+_key: APVV-20-0069:2022
+grant: APVV-20-0069
+year: 2022
+prijmy: 6521.0
+vydavky: 6509.76
+---
+!GrantRok
+_key: APVV-20-0069:2021
+grant: APVV-20-0069
+year: 2021
+prijmy: 2272.0
+vydavky: 2266.51
+---
+!GrantRok
+_key: APVV-16-0073-2020:2020
+grant: APVV-16-0073
+year: 2020
+prijmy: 6152.0
+vydavky: 6074.71
+---
+!GrantRok
+_key: APVV-16-0073:2021
+grant: APVV-16-0073
+year: 2021
+prijmy: 3432.0
+vydavky: 3406.28
 ---
 !MyOwn
 _key: jenca2015effect
@@ -486,7 +362,165 @@ quartile: Q2
 snip: 1.065
 quartile_year: 2015
 snip_year: 2015
-is_old: false
+---
+!MyOwn
+_key: jenca2013congruences
+authors: ['Jenča, Gejza']
+title: Congruences generated by ideals of the compatibility center of lattice effect
+  algebras
+endpage: 47
+grants: [VEGA-G-2-0059-12, VEGA-G-1-0297-11, APVV-0073-10, APVV-0178-11]
+journal: Soft Computing
+number: 1
+publisher: Springer-Verlag
+startpage: 45
+tags: [cc, scopus, zpub, wos, voc2013]
+type: article
+volume: 17
+year: 2013
+quartile: Q1
+snip: 1.457
+quartile_year: 2013
+snip_year: 2013
+---
+!MyOwn
+_key: dinola2009thecategory
+authors: ['Di Nola, A.', 'Holčapek, M.', 'Jenča, G.']
+title: The category of MV-pairs
+endpage: 412
+grants: [VEGA-G-1-3025-06, APVT-51-032002, APVV-0071-06]
+issue: 4
+journal: Logic Journal of the IGPL
+startpage: 395
+tags: [zpub, wos]
+type: article
+volume: 17
+year: 2009
+quartile: Q1
+snip: null
+quartile_year: 2009
+snip_year: null
+---
+!MyOwn
+_key: jenca2012compatibility
+authors: ['Jenča, G.']
+title: Compatibility support mappings in effect algebras
+arxiv: '0910.2825'
+endpage: 378
+grants: [VEGA-G-1-0080-10, VEGA-G-1-0297-11, VEGA-G-2-0059-12, APVV-0178-11, APVV-0073-10]
+issue: 3
+journal: Mathematica Slovaca
+startpage: 363
+tags: [voc2012, scopus, dpub, wos]
+type: article
+volume: 62
+year: 2012
+quartile: Q3
+snip: 0.954
+quartile_year: 2012
+snip_year: 2012
+---
+!MyOwn
+_key: jenca2012extensions
+authors: ['Jenča, G.']
+title: Extensions of Witness Mappings
+document_type: Article
+endpage: 544
+grants: [VEGA-G-1-0080-10, VEGA-G-1-0297-11, APVV-0071-06, APVV-0073-10]
+journal: Order
+note: cited By (since 1996) 0
+number: 3
+source: Scopus
+startpage: 533
+tags: [voc2012, scopus, zpub, wos]
+type: article
+url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84867097683&partnerID=40&md5=48a43d5c253d964d3242aac9a67de8f1
+volume: 29
+year: 2012
+quartile: Q3
+snip: 0.686
+quartile_year: 2012
+snip_year: 2012
+---
+!MyOwn
+_key: jenca2020pseudo
+authors: ['Jenča, Gejza']
+title: Pseudo effect algebras are algebras over bounded posets
+doi: https://doi.org/10.1016/j.fss.2019.07.003
+grants: [VEGA-2-0069-16, VEGA-1-0006-19, APVV-18-0052, APVV-16-0073]
+issn: 0165-0114
+journal: Fuzzy Sets and Systems
+keywords: Pseudo effect algebras, Pseudo D-posets
+tags: [cc, scopus, wos, zpub, voc2020]
+type: article
+url: http://www.sciencedirect.com/science/article/pii/S0165011418309448
+year: 2020
+quartile: Q1
+snip: 2.072
+quartile_year: 2019
+snip_year: 2020
+endpage: 185
+publisher: Elsevier
+startpage: 179
+volume: 397
+---
+!MyOwn
+_key: jenca2003orthocomplete
+authors: ['Jenča, G.', 'Pulmannová, S.']
+title: Orthocomplete effect algebras
+endpage: 2671
+grants: [VEGA-G-1-7625-20, VEGA-G-2-7193-20]
+issue: 9
+journal: Proceedings of the American Mathematical Society
+startpage: 2663
+tags: [cc, zpub, wos]
+type: article
+volume: 131
+year: 2003
+quartile: Q2
+snip: null
+quartile_year: 2003
+snip_year: null
+---
+!MyOwn
+_key: jenca2003finite
+authors: ['Jenča, G.']
+title: Finite homogeneous and lattice ordered effect algebras
+endpage: 214
+grants: [VEGA-G-1-7625-20]
+issue: 2-3
+journal: Discrete Mathematics
+startpage: 197
+tags: [zpub, wos]
+type: article
+volume: 272
+year: 2003
+quartile: Q2
+snip: null
+quartile_year: 2003
+snip_year: null
+---
+!MyOwn
+_key: jenca2022orthomodular
+authors: [Gejza Jenča]
+title: Orthomodular posets are algebras over bounded posets with involution
+doi: 10.1007/s00500-021-06433-6
+endpage: 498
+journal: Soft Computing
+note: 'Cited by: 0; All Open Access, Green Open Access'
+number: 2
+publication_stage: Final
+startpage: 491
+type: article
+url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85119701424&doi=10.1007%2fs00500-021-06433-6&partnerID=40&md5=bf9b17208101915ff7aa9dda85ae241e
+volume: 26
+year: 2022
+tags: [wos, voc2022, scopus, cc]
+snip: 1.463
+snip_year: 2020
+quartile: Q2
+quartile_year: 2021
+grants: [VEGA-2-0142-20, VEGA-1-0006-19, APVV-18-0052, APVV-20-0069]
 ---
 !MyOwn
 _key: jenca2016anote
@@ -515,31 +549,60 @@ quartile: Q1
 snip: 1.22
 quartile_year: 2016
 snip_year: 2016
-is_old: false
 ---
 !MyOwn
-_key: jencova2017onmonoids
-authors: ['Jenčová, A.', 'Jenča, G.']
-title: On Monoids in the Category of Sets and Relations
-arxiv: 1703.03728
-document_type: Article
-doi: 10.1007/s10773-017-3304-z
-endpage: 3769
-grants: [VEGA-2-0069-16, VEGA-1-0420-15, APVV-14-0013]
-journal: International Journal of Theoretical Physics
-note: cited By 0
-number: 12
-source: Scopus
-startpage: 3757
-tags: [cc, scopus, zpub, voc2017, wos]
+_key: jenca2001asurvey
+authors: ['Jenča, G.', 'Riečanová, Z.']
+title: A Survey on Sharp Elements in Unsharp Quantum Logics
+endpage: 239
+grants: [VEGA-G-1-7625-20]
+issue: 7-8
+journal: Journal of Electrical Engineering
+startpage: 237
+tags: [dpub]
 type: article
-volume: 56
-year: 2017
+volume: 52
+year: 2001
+quartile: null
+snip: null
+quartile_year: null
+snip_year: null
+---
+!MyOwn
+_key: jenca2001ideals
+authors: ['Jenča, G.', 'Pulmannová, S.']
+title: Ideals and Quotients in Lattice Ordered Effect Algebras
+endpage: 380
+grants: []
+journal: Soft Computing
+startpage: 376
+tags: [zpub]
+type: article
+volume: 5
+year: 2001
+quartile: Q4
+snip: null
+quartile_year: 2001
+snip_year: null
+---
+!MyOwn
+_key: jenca2001blocks
+authors: ['Jenča, G.']
+title: Blocks of homogeneous effect algebras
+arxiv: 1504.00354
+endpage: 98
+grants: [VEGA-G-1-7625-20]
+issue: 1
+journal: Bulletin of the Australian Mathematical Society
+startpage: 81
+tags: [cc, zpub, wos]
+type: article
+volume: 64
+year: 2001
 quartile: Q3
-snip: 0.49
-quartile_year: 2017
-snip_year: 2017
-is_old: false
+snip: null
+quartile_year: 2001
+snip_year: null
 ---
 !MyOwn
 _key: jenca2018effect
@@ -563,7 +626,48 @@ quartile: Q3
 snip: 0.943
 quartile_year: 2018
 snip_year: 2018
-is_old: false
+---
+!MyOwn
+_key: jencova2017onmonoids
+authors: ['Jenčová, A.', 'Jenča, G.']
+title: On Monoids in the Category of Sets and Relations
+arxiv: 1703.03728
+document_type: Article
+doi: 10.1007/s10773-017-3304-z
+endpage: 3769
+grants: [VEGA-2-0069-16, VEGA-1-0420-15, APVV-14-0013]
+journal: International Journal of Theoretical Physics
+note: cited By 0
+number: 12
+source: Scopus
+startpage: 3757
+tags: [cc, scopus, zpub, voc2017, wos]
+type: article
+volume: 56
+year: 2017
+quartile: Q3
+snip: 0.49
+quartile_year: 2017
+snip_year: 2017
+---
+!MyOwn
+_key: jenca2011coexistence
+authors: ['Jenča, G.']
+title: Coexistence in interval effect algebras
+arxiv: '0910.2823'
+endpage: 344
+grants: [APVV-0071-06, VEGA-G-1-0080-10]
+issue: 1
+journal: Proceedings of the American Mathematical Society
+startpage: 331
+tags: [cc, zpub, wos]
+type: article
+volume: 139
+year: 2011
+quartile: Q1
+snip: 1.07
+quartile_year: 2011
+snip_year: 2011
 ---
 !MyOwn
 _key: jenca2019twomonads
@@ -588,59 +692,100 @@ quartile: Q3
 snip: 0.794
 quartile_year: 2019
 snip_year: 2019
-is_old: false
 ---
 !MyOwn
-_key: jenca2020pseudo
-authors: ['Jenča, Gejza']
-title: Pseudo effect algebras are algebras over bounded posets
-doi: https://doi.org/10.1016/j.fss.2019.07.003
-grants: [VEGA-2-0069-16, VEGA-1-0006-19, APVV-18-0052, APVV-16-0073]
-issn: 0165-0114
-journal: Fuzzy Sets and Systems
-keywords: Pseudo effect algebras, Pseudo D-posets
-tags: [cc, scopus, wos, zpub, voc2020]
-type: article
-url: http://www.sciencedirect.com/science/article/pii/S0165011418309448
-year: 2020
-quartile: Q1
-snip: 2.072
-quartile_year: 2019
-snip_year: 2020
-endpage: 185
-publisher: Elsevier
-startpage: 179
-volume: 397
-is_old: false
----
-!MyOwn
-_key: jenca2022orthomodular
-authors: [Gejza Jenča]
-title: Orthomodular posets are algebras over bounded posets with involution
-doi: 10.1007/s00500-021-06433-6
-endpage: 498
+_key: jenca20100homogeneous
+authors: ['Jenča, G.']
+title: 0-homogeneous effect algebras
+endpage: 1116
+grants: [VEGA-G-1-3025-06, VEGA-G-1-0500-09, APVT-51-032002, APVV-0071-06]
+issue: 10
 journal: Soft Computing
-note: 'Cited by: 0; All Open Access, Green Open Access'
-number: 2
-publication_stage: Final
-startpage: 491
+startpage: 1111
+tags: [cc, zpub, wos]
 type: article
-url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85119701424&doi=10.1007%2fs00500-021-06433-6&partnerID=40&md5=bf9b17208101915ff7aa9dda85ae241e
-volume: 26
-year: 2022
-tags: [wos, voc2022, scopus, cc]
-snip: 1.463
-snip_year: 2020
+volume: 14
+year: 2010
 quartile: Q2
-quartile_year: 2021
-grants: [VEGA-2-0142-20, VEGA-1-0006-19, APVV-18-0052, APVV-20-0069]
-is_old: false
+snip: null
+quartile_year: 2010
+snip_year: null
+---
+!MyOwn
+_key: jenca2010sharp
+authors: ['Jenča, G.']
+title: Sharp and Meager Elements in Orthocomplete Homogeneous Effect Algebras
+endpage: 61
+grants: [VEGA-G-1-3025-06, APVT-51-032002, APVV-0071-06]
+journal: Order
+startpage: 41
+tags: [zpub, wos]
+type: article
+volume: 27
+year: 2010
+quartile: Q3
+snip: null
+quartile_year: 2010
+snip_year: null
+---
+!MyOwn
+_key: jenca2002central
+authors: ['Jenča, Gejza', 'Marinová, Ivica', 'Riečanová, Zdenka']
+title: Central elements, blocks and sharp elements of lattice effect algebras
+booktitle: Proceedings of the third seminar Fuzzy Sets and Quantum Structures, Vyhne,
+  Slovakia
+endpage: 33
+grants: []
+startpage: 28
+tags: [dpub]
+type: inproceedings
+year: 2002
+quartile: null
+quartile_year: null
+snip: null
+snip_year: null
+---
+!MyOwn
+_key: jenca2002quotients
+authors: ['Jenča, G.', 'Pulmannová, S.']
+title: Quotients of partial abelian monoids and the Riesz decomposition property
+endpage: 477
+grants: [VEGA-G-1-4297-97, VEGA-G-2-4033-97]
+issue: 4
+journal: Algebra Universalis
+startpage: 443
+tags: [zpub, wos]
+type: article
+volume: 47
+year: 2002
+quartile: Q3
+snip: null
+quartile_year: 2002
+snip_year: null
+---
+!MyOwn
+_key: jenca2002acantorbernstein
+authors: ['Jenča, G.']
+title: A Cantor-Bernstein type theorem for effect algebras
+endpage: 411
+grants: [VEGA-G-1-7625-20]
+issue: 4
+journal: Algebra Universalis
+startpage: 399
+tags: [zpub, wos]
+type: article
+volume: 48
+year: 2002
+quartile: Q3
+snip: null
+quartile_year: 2002
+snip_year: null
 ---
 !MyOwn
 _key: jenca2023orthogonality
 authors: ['Jenča, G.']
 title: Orthogonality Spaces Associated with Posets
-document_type: Article
+document_type: article
 doi: 10.1007/s11083-022-09623-5
 endpage: 588
 journal: Order
@@ -653,8 +798,9 @@ url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85144741121&doi=10.1007
 volume: 40
 year: 2023
 grants: [VEGA-2-0142-20, VEGA-1-0006-19, APVV-18-0052, APVV-20-0069]
-tags: [zpub, wos, scopus]
-is_old: false
+tags: [zpub, voc2023, scopus, wos]
+quartile: Q3
+quartile_year: 2022
 ---
 !MyOwn
 _key: jenca2023quantum
@@ -672,8 +818,9 @@ url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85173531169&doi=10.4204
 volume: 384
 year: 2023
 grants: [VEGA-2-0142-20, VEGA-1-0036-23, APVV-18-0052, APVV-20-0069]
-tags: [zpub, wos, scopus]
-is_old: false
+tags: [zpub, voc2023, scopus, wos]
+quartile: null
+quartile_year: null
 ---
 !MyOwn
 _key: jenca2023voltage
@@ -687,7 +834,7 @@ startpage: 275
 type: article
 volume: 73
 year: 2023
-tags: [wos, scopus, dpub]
+tags: [voc2023, scopus, wos, dpub]
 grants: [VEGA-2-0142-20, VEGA-1-0006-19, APVV-18-0052, APVV-20-0069]
 quartile: Q2
 quartile_year: 2022
@@ -695,5 +842,370 @@ document_type: Article
 doi: 10.1515/ms-2023-0023
 note: cited By 0
 source: Scopus
-url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85151364720&doi=10.1515%2fms-2023-0023&partnerID=40&md5=1b93b0733ef2d6239d4545cf1f6be65f
-is_old: false
+---
+!MyOwn
+_key: jenca1999onsharp
+authors: ['Jenča, G.', 'Riečanová, Z.']
+title: On sharp elements in lattice ordered effect algebras
+endpage: 29
+grants: [VEGA-G-1-4297-97]
+journal: BUSEFAL
+purge_tags: [scopus]
+startpage: 24
+tags: [zpub]
+type: article
+volume: 80
+year: 1999
+quartile: null
+snip: null
+quartile_year: null
+snip_year: null
+---
+!MyOwn
+_key: jenca1999sheaf
+authors: ['Jenča, G.']
+title: Sheaf representations of partial abelian monoids
+endpage: 70
+grants: [VEGA-G-1-4297-97]
+issue: 10/s
+journal: Journal of Electrical Engineering
+startpage: 66
+tags: [dpub]
+type: article
+volume: 50
+year: 1999
+quartile: null
+snip: null
+quartile_year: null
+snip_year: null
+---
+!MyOwn
+_key: jenca1999anote
+authors: ['Jenča, G.']
+title: A note on ideals in generalized effect algebras
+endpage: 85
+grants: [VEGA-G-1-4297-97]
+journal: Tatra Mountains Mathematical Publications
+startpage: 81
+tags: [dpub]
+type: article
+volume: 16
+year: 1999
+quartile: null
+snip: null
+quartile_year: null
+snip_year: null
+---
+!MyOwn
+_key: jenca2007arepresentation
+authors: ['Jenča, G.']
+title: A representation theorem for MV-algebras
+arxiv: math/0602169
+endpage: 564
+grants: [VEGA-G-1-3025-06, APVT-51-032002]
+issue: 6
+journal: Soft Computing
+startpage: 557
+tags: [cc, zpub, wos]
+type: article
+volume: 11
+year: 2007
+quartile: Q3
+snip: null
+quartile_year: 2007
+snip_year: null
+---
+!MyOwn
+_key: jenca2007theblock
+authors: ['Jenča, G.']
+title: The block structure of complete lattice ordered effect algebras
+endpage: 216
+grants: [VEGA-G-1-0266-03, APVT-51-032002]
+issue: 2
+journal: Journal of the Australian Mathematical Society
+startpage: 181
+tags: [cc, zpub, wos]
+type: article
+volume: 83
+year: 2007
+quartile: Q2
+snip: null
+quartile_year: 2007
+snip_year: null
+---
+!MyOwn
+_key: jenca2000subcentral
+authors: ['Jenča, G.']
+title: Subcentral ideals in generalized effect algebras
+endpage: 755
+grants: [VEGA-G-1-4297-97]
+issue: 3
+journal: International Journal of Theoretical Physics
+startpage: 745
+tags: [cc, zpub, wos]
+type: article
+volume: 39
+year: 2000
+quartile: Q3
+snip: null
+quartile_year: 2000
+snip_year: null
+---
+!MyOwn
+_key: jenca2000notes
+authors: ['Jenča, G.']
+title: Notes on R1-ideals in partial abelian monoids
+endpage: 319
+grants: [VEGA-G-1-4297-97]
+issue: 4
+journal: Algebra Universalis
+startpage: 307
+tags: [zpub, wos]
+type: article
+volume: 43
+year: 2000
+quartile: Q4
+snip: null
+quartile_year: 2000
+snip_year: null
+---
+!MyOwn
+_key: jenca2014linear
+authors: ['Jenča, Gejza', 'Sarkoci, Peter']
+title: Linear extensions and order-preserving poset partitions
+arxiv: 1112.5782
+endpage: 38
+grants: [VEGA-G-2-0059-12, VEGA-G-1-0297-11, APVV-0073-10, APVV-0178-11]
+journal: Journal of Combinatorial Theory, Series A
+publisher: Academic Press
+startpage: 28
+tags: [cc, scopus, sci, voc2014, wos, zpub]
+type: article
+volume: 122
+year: 2014
+quartile: Q1
+snip: 1.542
+quartile_year: 2014
+snip_year: 2014
+---
+!MyOwn
+_key: jenca2004boolean
+authors: ['Jenča, G.']
+title: Boolean algebras R-generated by MV-effect algebras
+endpage: 285
+grants: [VEGA-G-1-7625-20]
+issue: 2
+journal: Fuzzy Sets and Systems
+startpage: 279
+tags: [cc, zpub, wos]
+type: article
+volume: 145
+year: 2004
+quartile: Q1
+snip: null
+quartile_year: 2004
+snip_year: null
+---
+!Year
+_key: 2015
+year: 2015
+---
+!Year
+_key: 2014
+year: 2014
+---
+!Year
+_key: 2004
+year: 2004
+---
+!Year
+_key: 2013
+year: 2013
+---
+!Year
+_key: 2018
+year: 2018
+---
+!Year
+_key: 2023
+year: 2023
+---
+!Year
+_key: 2020
+year: 2020
+---
+!Year
+_key: 2003
+year: 2003
+---
+!Year
+_key: 1999
+year: 1999
+---
+!Year
+_key: 2021
+year: 2021
+---
+!Year
+_key: 2005
+year: 2005
+---
+!Year
+_key: 2019
+year: 2019
+---
+!Year
+_key: 2008
+year: 2008
+---
+!Year
+_key: 2022
+year: 2022
+---
+!Year
+_key: 2012
+year: 2012
+---
+!Year
+_key: 2001
+year: 2001
+---
+!Year
+_key: 1998
+year: 1998
+---
+!Year
+_key: 2009
+year: 2009
+---
+!Year
+_key: 2011
+year: 2011
+---
+!Year
+_key: 2007
+year: 2007
+---
+!Year
+_key: 2017
+year: 2017
+---
+!Year
+_key: 2002
+year: 2002
+---
+!Year
+_key: 2006
+year: 2006
+---
+!Year
+_key: 2000
+year: 2000
+---
+!Year
+_key: 2016
+year: 2016
+---
+!Year
+_key: 2010
+year: 2010
+---
+!Tag
+_key: voc2015
+tag: voc2015
+---
+!Tag
+_key: sci
+tag: sci
+---
+!Tag
+_key: voc2012
+tag: voc2012
+---
+!Tag
+_key: dautor
+tag: dautor
+---
+!Tag
+_key: voc2016
+tag: voc2016
+---
+!Tag
+_key: scopus
+tag: scopus
+---
+!Tag
+_key: voc2022
+tag: voc2022
+---
+!Tag
+_key: voc2023
+tag: voc2023
+---
+!Tag
+_key: zautor
+tag: zautor
+---
+!Tag
+_key: zaut
+tag: zaut
+---
+!Tag
+_key: as-preprint
+tag: as-preprint
+---
+!Tag
+_key: voc2018
+tag: voc2018
+---
+!Tag
+_key: zpub
+tag: zpub
+---
+!Tag
+_key: voc2021
+tag: voc2021
+---
+!Tag
+_key: wos
+tag: wos
+---
+!Tag
+_key: voc2011
+tag: voc2011
+---
+!Tag
+_key: voc2019
+tag: voc2019
+---
+!Tag
+_key: voc2014
+tag: voc2014
+---
+!Tag
+_key: cc
+tag: cc
+---
+!Tag
+_key: dpub
+tag: dpub
+---
+!Tag
+_key: voc2017
+tag: voc2017
+---
+!Tag
+_key: zbub
+tag: zbub
+---
+!Tag
+_key: wrong
+tag: wrong
+---
+!Tag
+_key: voc2020
+tag: voc2020
+---
+!Tag
+_key: voc2013
+tag: voc2013

@@ -15,6 +15,7 @@ url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85144741121&doi=10.1007
 volume: 40
 year: 2023
 grants: [VEGA-2-0142-20, VEGA-1-0006-19, APVV-18-0052, APVV-20-0069]
-tags: [zpub, wos, scopus]
+tags: [zpub, voc2023, scopus, wos]
+arxiv: "2206.08113"
 quartile: Q3
 quartile_year: 2022

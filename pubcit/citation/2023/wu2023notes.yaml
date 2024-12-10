@@ -10,6 +10,9 @@ journal: Order-a Journal on the Theory of Ordered Sets and Its Applications
 month: 2023 JAN 17
 type: article
 unique_id: WOS:000917846500001
+volume: 40
+startpage: 525
+endpage: 536
 year: 2023
 cites: [jenca1999onsharp]
-tags: [wos, zpub, zaut]
+tags: [wos, zaut, voc2023, zpub]

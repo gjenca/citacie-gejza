@@ -1,36 +1,16 @@
 ---
 !Citation
-authors: ['Rump, Wolfgang']
-title: The geometry of discrete <i>L</i>-algebras
-doi: 10.1515/advgeom-2023-0023
-eissn: 1615-7168
-endpage: 565
-issn: 1615-715X
-journal: Advances in Geometry
-month: OCT 26
-number: 4
-startpage: 543
+authors: ['Linzi, A.']
+title: A Result of Krasner in Categorial Form
+article_number: 4923
+document_type: Article
+doi: 10.3390/math11244923
+journal: Mathematics
+note: cited By 0
+number: 24
+source: Scopus
 type: article
-unique_id: WOS:001086669200002
-volume: 23
+url: https://www.scopus.com/inward/record.uri?eid=2-s2.0-85180729072&doi=10.3390%2fmath11244923&partnerID=40&md5=0c0b05e10b09d31c7f87c893acf2dc70
+volume: 11
 year: 2023
-tags: [wos, zaut]
-cites: [jenca1999onsharp]
----
-!Citation
-authors: ['Avallone, Anna', 'Vitolo, Paolo']
-title: Kalmbach measurability in d0-algebras
-doi: 10.1515/ms-2022-0095
-eissn: 1337-2211
-endpage: 1402
-issn: 0139-9918
-journal: Mathematica Slovaca
-month: DEC 16
-number: 6
-startpage: 1387
-type: article
-unique_id: WOS:000896650300002
-volume: 72
-year: 2022
-tags: [wos, zaut]
-cites: [jenca1999onsharp]
+cites: [jencova2017onmonoids]

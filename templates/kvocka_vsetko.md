@@ -1,8 +1,6 @@
 %% import "macros.jinja" as macros
-%% set tag = records_by_type("Tag")[0]
-# {{tag.tag}}
 ## Publikácie
 
-%% for rec in tag.myowns | sort_by('year')
+%% for rec in records_by_type('MyOwn') | sort_by('year.year')
  1. {{ macros.publication(rec) }}
 %% endfor
